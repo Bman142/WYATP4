@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Fungus;
 
 public class Player : MonoBehaviour
 {
@@ -8,7 +9,7 @@ public class Player : MonoBehaviour
     public float MoveSpeed { get { return moveSpeed; } }
 
     private static Player instance = null;
-    public static Player Instatnce { get { return instance; } }
+    public static Player Instance { get { return instance; } }
 
     public enum controlScheme { WASD, Arrows}
 
@@ -17,7 +18,10 @@ public class Player : MonoBehaviour
     [Range(0, 100)]
     [SerializeField] private float cameraSensitivity;
     public float CameraSensitivty { get { return cameraSensitivity; } set { value = cameraSensitivity; } }
-    
+
+    private bool inMenu = false;
+    public bool InMenu { get { return inMenu; } set { inMenu = value; } }
+
 
     private void Awake()
     {
@@ -34,6 +38,10 @@ public class Player : MonoBehaviour
         }
 
         DontDestroyOnLoad(this);
+    }
+    public void SetInMenu()
+    {
+        inMenu = !inMenu;
     }
 
     // Start is called before the first frame update

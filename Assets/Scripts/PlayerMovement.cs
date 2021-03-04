@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
 {
     private Vector2 mouseDirection;
     private float cameraSensitivity;
-
+    Camera camera;
 
     float localSpeed;
     NavMeshAgent agent;
@@ -19,12 +19,15 @@ public class PlayerMovement : MonoBehaviour
     private KeyCode backward;
     private KeyCode left;
     private KeyCode right;
+
+   
     // Start is called before the first frame update
     void Start()
     {
-        localSpeed = Player.Instatnce.MoveSpeed;
+        camera = Camera.main;
+        localSpeed = Player.Instance.MoveSpeed;
         agent = this.GetComponent<NavMeshAgent>();
-        controls = Player.Instatnce.Control;
+        controls = Player.Instance.Control;
 
         switch (controls)
         {
@@ -47,16 +50,37 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        if (!Player.Instance.InMenu)
+        {
+            if (Input.GetMouseButtonDown(0))
+            {
+                Ray ray = camera.ScreenPointToRay(Input.mousePosition);
+                RaycastHit hit;
 
-        cameraSensitivity = Player.Instatnce.CameraSensitivty;
-        Vector2 mouseChange = new Vector2(Input.GetAxisRaw("Mouse X"), -Input.GetAxisRaw("Mouse Y"));
-        mouseDirection += mouseChange;
-        this.transform.localRotation = Quaternion.AngleAxis(mouseDirection.x * cameraSensitivity, Vector3.up);
+                if (Physics.Raycast(ray, out hit))
+                {
+                    if (hit.collider.gameObject.tag == "Clue")
+                    {
+                        hit.collider.GetComponent<Clue>().OnInteract();
+                    }
+                    else if(hit.collider.gameObject.tag == "Door")
+                    {
+                        hit.collider.GetComponent<Door>().OnInteract();
+                    }
+                }
+            }
 
 
-        if (Input.GetKey(forward)) { agent.Move(this.transform.forward * localSpeed); }
-        if (Input.GetKey(backward)) { agent.Move(this.transform.forward * -localSpeed); }
-        if (Input.GetKey(left)) { agent.Move(this.transform.right * -localSpeed); }
-        if (Input.GetKey(right)) { agent.Move(this.transform.right * localSpeed); }
+            cameraSensitivity = Player.Instance.CameraSensitivty;
+            Vector2 mouseChange = new Vector2(Input.GetAxisRaw("Mouse X"), -Input.GetAxisRaw("Mouse Y"));
+            mouseDirection += mouseChange;
+            this.transform.localRotation = Quaternion.AngleAxis(mouseDirection.x * cameraSensitivity, Vector3.up);
+
+
+            if (Input.GetKey(forward)) { agent.Move(this.transform.forward * localSpeed); }
+            if (Input.GetKey(backward)) { agent.Move(this.transform.forward * -localSpeed); }
+            if (Input.GetKey(left)) { agent.Move(this.transform.right * -localSpeed); }
+            if (Input.GetKey(right)) { agent.Move(this.transform.right * localSpeed); }
+        }
     }
 }
