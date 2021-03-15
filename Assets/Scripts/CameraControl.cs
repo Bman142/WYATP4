@@ -16,7 +16,7 @@ public class CameraControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!Player.Instance.InMenu)
+        if (!Player.Instance.CursorLock)
         {
             cameraSensitivity = Player.Instance.CameraSensitivty;
             Vector2 mouseChange = new Vector2(Input.GetAxisRaw("Mouse X"), -Input.GetAxisRaw("Mouse Y"));

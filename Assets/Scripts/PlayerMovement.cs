@@ -50,7 +50,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        if (!Player.Instance.InMenu)
+        if (!Player.Instance.CursorLock)
         {
             if (Input.GetMouseButtonDown(0))
             {

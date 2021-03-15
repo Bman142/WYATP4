@@ -22,6 +22,8 @@ public class Player : MonoBehaviour
     private bool inMenu = false;
     public bool InMenu { get { return inMenu; } set { inMenu = value; } }
 
+    private bool cursorLock = false;
+    public bool CursorLock { get { return cursorLock; } set { cursorLock = value; } }
 
     private void Awake()
     {
@@ -41,7 +43,7 @@ public class Player : MonoBehaviour
     }
     public void SetInMenu()
     {
-        inMenu = !inMenu;
+        cursorLock = !cursorLock;
     }
 
     // Start is called before the first frame update
