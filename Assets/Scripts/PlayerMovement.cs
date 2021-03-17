@@ -59,6 +59,7 @@ public class PlayerMovement : MonoBehaviour
 
                 if (Physics.Raycast(ray, out hit))
                 {
+
                     if (hit.collider.gameObject.tag == "Clue")
                     {
                         hit.collider.GetComponent<Clue>().OnInteract();
