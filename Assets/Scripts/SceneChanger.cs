@@ -14,4 +14,9 @@ public class SceneChanger : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void DestroyPlayer(GameObject player)
+    {
+        Destroy(player);
+    }
 }

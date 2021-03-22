@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
 {
     private Vector2 mouseDirection;
     private float cameraSensitivity;
-    Camera camera;
+    new Camera camera;
 
     float localSpeed;
     NavMeshAgent agent;
@@ -57,7 +57,7 @@ public class PlayerMovement : MonoBehaviour
                 Ray ray = camera.ScreenPointToRay(Input.mousePosition);
                 RaycastHit hit;
 
-                if (Physics.Raycast(ray, out hit))
+                if (Physics.Raycast(ray, out hit, 1))
                 {
 
                     if (hit.collider.gameObject.tag == "Clue")
@@ -67,6 +67,10 @@ public class PlayerMovement : MonoBehaviour
                     else if(hit.collider.gameObject.tag == "Door")
                     {
                         hit.collider.GetComponent<Door>().OnInteract();
+                    }
+                    else if(hit.collider.gameObject.tag == "FrontDoor")
+                    {
+                        hit.collider.GetComponent<FrontDoor>().OnInteract();
                     }
                 }
             }
