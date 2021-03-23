@@ -651,6 +651,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 167659257}
+  - component: {fileID: 167659258}
   m_Layer: 0
   m_Name: GovernmentAgentAvatar
   m_TagString: Untagged
@@ -672,6 +673,25 @@ Transform:
   m_Father: {fileID: 220784126}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &167659258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 167659256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: Agent Johns
+  nameColor: {r: 1, g: 1, b: 1, a: 1}
+  soundEffect: {fileID: 0}
+  portraits: []
+  portraitsFace: 0
+  setSayDialog: {fileID: 0}
+  description: 
 --- !u!1 &189472118 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100004, guid: b2d48f69e426f3c41b473408129c689b, type: 3}
@@ -3434,6 +3454,33 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: f0d4298dcac2ffd499747abaa06977ee, type: 3}
+--- !u!114 &513378068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 513378062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 365ab0cce19b03c4b8a0493e0bdeedb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Interact:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 863814077}
+        m_TargetAssemblyTypeName: Fungus.Flowchart, Fungus
+        m_MethodName: ExecuteBlock
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Door
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &514037714
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4134,38 +4181,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 02e5269d0ab9fe64ca9bdff1d9cf8101, type: 3}
---- !u!1 &835096495 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1290666548114358, guid: 1bbe2c604601fdb44b9e7eeec90773ef, type: 3}
-  m_PrefabInstance: {fileID: 1260506738}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &835096498
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 835096495}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 365ab0cce19b03c4b8a0493e0bdeedb0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Interact:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 863814077}
-        m_TargetAssemblyTypeName: Fungus.Flowchart, Fungus
-        m_MethodName: ExecuteBlock
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Door
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1001 &842800521
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4370,9 +4385,8 @@ GameObject:
   - component: {fileID: 863814079}
   - component: {fileID: 863814114}
   - component: {fileID: 863814115}
-  - component: {fileID: 863814118}
-  - component: {fileID: 863814119}
-  - component: {fileID: 863814117}
+  - component: {fileID: 863814120}
+  - component: {fileID: 863814121}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -4393,7 +4407,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -619.65, y: -79.535614}
+  scrollPos: {x: -446.65002, y: 45.464386}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 401.66666
@@ -4405,9 +4419,8 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 863814118}
-  selectedCommands:
-  - {fileID: 863814117}
+  - {fileID: 863814097}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -4434,7 +4447,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 831.65
-    y: 257.5356
+    y: 255.53561
     width: 78
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -4508,6 +4521,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 863814086}
   - {fileID: 863814084}
+  - {fileID: 863814121}
   - {fileID: 863814115}
   suppressAllAutoSelections: 0
 --- !u!4 &863814081
@@ -4548,7 +4562,8 @@ MonoBehaviour:
   blockName: Phone Rings
   description: 
   eventHandler: {fileID: 0}
-  commandList: []
+  commandList:
+  - {fileID: 863814120}
   suppressAllAutoSelections: 0
 --- !u!114 &863814083
 MonoBehaviour:
@@ -4566,7 +4581,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 20
+    floatVal: 10
   durationOLD: 0
 --- !u!114 &863814084
 MonoBehaviour:
@@ -4582,7 +4597,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3
   indentLevel: 0
-  storyText: '*Knock Knock*'
+  storyText: '{i}*Knock Knock*{i}'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4900,8 +4915,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 753.6817
-    y: 553.18146
+    x: 915.6817
+    y: 498.18146
     width: 133.33334
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -5373,24 +5388,7 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &863814117
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 863814076}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 58
-  indentLevel: 0
-  targetObject: {fileID: 248077137}
-  methodName: ShowImage
-  delay: 0
---- !u!114 &863814118
+--- !u!114 &863814120
 MonoBehaviour:
   m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5399,42 +5397,51 @@ MonoBehaviour:
   m_GameObject: {fileID: 863814076}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 1161.65
-    y: 371.5356
-    width: 145.33334
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 56
-  blockName: PickupPamphlet
-  description: "\t"
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 863814119}
-  - {fileID: 863814117}
-  suppressAllAutoSelections: 0
---- !u!114 &863814119
+  itemId: 59
+  indentLevel: 0
+  storyText: '{i}*Ring Ring*{i}'
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &863814121
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 863814076}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 82e4c082f762243f6943909a4272096d, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 57
+  itemId: 60
   indentLevel: 0
-  images:
-  - {fileID: 0}
-  sprite: {fileID: 21300000, guid: 405fbb8b487f02e4a9bda4cf18334809, type: 3}
+  storyText: That's Weird, I'm Not Expecting Anyone
+  description: 
+  character: {fileID: 1820075857}
+  portrait: {fileID: 21300000, guid: 784332953e98f1447b28787faa297c4c, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1001 &880405171
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7495,6 +7502,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1176916904}
+  - component: {fileID: 1176916905}
   m_Layer: 0
   m_Name: RebelAvatar
   m_TagString: Untagged
@@ -7516,6 +7524,25 @@ Transform:
   m_Father: {fileID: 220784126}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1176916905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1176916903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: Rebel
+  nameColor: {r: 1, g: 1, b: 1, a: 1}
+  soundEffect: {fileID: 0}
+  portraits: []
+  portraitsFace: 0
+  setSayDialog: {fileID: 0}
+  description: 
 --- !u!1 &1190426121
 GameObject:
   m_ObjectHideFlags: 0

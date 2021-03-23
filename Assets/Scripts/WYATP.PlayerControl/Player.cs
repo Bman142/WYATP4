@@ -28,6 +28,9 @@ namespace WYATP.PlayerControl
         private bool cursorLock = false;
         public bool CursorLock { get { return cursorLock; } set { cursorLock = value; } }
 
+        private int volume;
+        public int Volume { get { return volume; } set { volume = value; } }
+
         private void Awake()
         {
             if (instance != null)
@@ -43,6 +46,24 @@ namespace WYATP.PlayerControl
             }
 
             DontDestroyOnLoad(this);
+
+            string temp = PlayerPrefs.GetString("Controls");
+            if (temp == "WASD")
+            {
+                control = controlScheme.WASD;
+            }
+            else if (temp == "Arrows")
+            {
+                control = controlScheme.Arrows;
+            }
+            Volume = PlayerPrefs.GetInt("Volume");
+
+            AudioSource[] audioSources = GameObject.FindObjectsOfType<AudioSource>();
+
+            foreach(AudioSource source in audioSources)
+            {
+                source.volume *= Volume;
+            }
         }
         public void SetInMenu()
         {
