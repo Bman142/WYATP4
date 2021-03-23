@@ -7,6 +7,8 @@ TagManager:
   - Clue
   - Door
   - FrontDoor
+  - Fire
+  - PickUp
   layers:
   - Default
   - TransparentFX

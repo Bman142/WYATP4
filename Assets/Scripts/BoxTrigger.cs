@@ -1,17 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class BoxTrigger : Interactable
+namespace WYATP.Interactions
 {
-    bool triggered = false;
-    private void OnTriggerEnter(Collider other)
+    public class BoxTrigger : Interactable
     {
-        if (other.gameObject.tag == "Player" && !triggered)
+        bool triggered = false;
+        private void OnTriggerEnter(Collider other)
         {
-            this.OnInteract();
-            triggered = true;
+            if (other.gameObject.tag == "Player" && !triggered)
+            {
+                this.OnInteract();
+                triggered = true;
+            }
         }
-    }
 
+    }
 }

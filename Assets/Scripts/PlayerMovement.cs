@@ -2,90 +2,96 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
-
-[RequireComponent(typeof(Player))]
-[RequireComponent(typeof(NavMeshAgent))]
-public class PlayerMovement : MonoBehaviour
+namespace WYATP.PlayerControl
 {
-    private Vector2 mouseDirection;
-    private float cameraSensitivity;
-    new Camera camera;
-
-    float localSpeed;
-    NavMeshAgent agent;
-
-    Player.controlScheme controls;
-    private KeyCode forward;
-    private KeyCode backward;
-    private KeyCode left;
-    private KeyCode right;
-
-   
-    // Start is called before the first frame update
-    void Start()
+    [RequireComponent(typeof(Player))]
+    [RequireComponent(typeof(NavMeshAgent))]
+    public class PlayerMovement : MonoBehaviour
     {
-        camera = Camera.main;
-        localSpeed = Player.Instance.MoveSpeed;
-        agent = this.GetComponent<NavMeshAgent>();
-        controls = Player.Instance.Control;
+        private Vector2 mouseDirection;
+        private float cameraSensitivity;
+        new Camera camera;
 
-        switch (controls)
+        float localSpeed;
+        NavMeshAgent agent;
+
+        Player.controlScheme controls;
+        private KeyCode forward;
+        private KeyCode backward;
+        private KeyCode left;
+        private KeyCode right;
+
+
+        // Start is called before the first frame update
+        void Start()
         {
-            case Player.controlScheme.WASD:
-                forward = KeyCode.W;
-                backward = KeyCode.S;
-                left = KeyCode.A;
-                right = KeyCode.D;
-                break;
-            case Player.controlScheme.Arrows:
-                forward = KeyCode.UpArrow;
-                backward = KeyCode.DownArrow;
-                left = KeyCode.LeftArrow;
-                right = KeyCode.RightArrow;
-                break;
+            camera = Camera.main;
+            localSpeed = Player.Instance.MoveSpeed;
+            agent = this.GetComponent<NavMeshAgent>();
+            controls = Player.Instance.Control;
+
+            switch (controls)
+            {
+                case Player.controlScheme.WASD:
+                    forward = KeyCode.W;
+                    backward = KeyCode.S;
+                    left = KeyCode.A;
+                    right = KeyCode.D;
+                    break;
+                case Player.controlScheme.Arrows:
+                    forward = KeyCode.UpArrow;
+                    backward = KeyCode.DownArrow;
+                    left = KeyCode.LeftArrow;
+                    right = KeyCode.RightArrow;
+                    break;
+            }
         }
-    }
         // Update is called once per frame
 
 
-    void Update()
-    {
-        if (!Player.Instance.CursorLock)
+        void Update()
         {
-            if (Input.GetMouseButtonDown(0))
+            if (!Player.Instance.CursorLock)
             {
-                Ray ray = camera.ScreenPointToRay(Input.mousePosition);
-                RaycastHit hit;
-
-                if (Physics.Raycast(ray, out hit, 1))
+                if (Input.GetMouseButtonDown(0))
                 {
+                    Ray ray = camera.ScreenPointToRay(Input.mousePosition);
+                    RaycastHit hit;
 
-                    if (hit.collider.gameObject.tag == "Clue")
+                    if (Physics.Raycast(ray, out hit, 2))
                     {
-                        hit.collider.GetComponent<Clue>().OnInteract();
-                    }
-                    else if(hit.collider.gameObject.tag == "Door")
-                    {
-                        hit.collider.GetComponent<Door>().OnInteract();
-                    }
-                    else if(hit.collider.gameObject.tag == "FrontDoor")
-                    {
-                        hit.collider.GetComponent<FrontDoor>().OnInteract();
+                        Debug.Log("Hit " + hit.collider.name);
+                        if (hit.collider.gameObject.tag == "Clue")
+                        {
+                            hit.collider.GetComponent<Interactions.Clue>().OnInteract();
+                        }
+                        else if (hit.collider.gameObject.tag == "Door")
+                        {
+                            hit.collider.GetComponent<Interactions.Door>().OnInteract();
+                        }
+                        else if (hit.collider.gameObject.tag == "FrontDoor")
+                        {
+                            hit.collider.GetComponent<Interactions.FrontDoor>().OnInteract();
+                        }
+                        else if(hit.collider.gameObject.tag == "PickUp")
+                        {
+                            hit.collider.GetComponent<Interactions.PickUp>().OnInteract();
+                        }
                     }
                 }
+
+
+                cameraSensitivity = Player.Instance.CameraSensitivty;
+                Vector2 mouseChange = new Vector2(Input.GetAxisRaw("Mouse X"), -Input.GetAxisRaw("Mouse Y"));
+                mouseDirection += mouseChange;
+                this.transform.localRotation = Quaternion.AngleAxis(mouseDirection.x * cameraSensitivity, Vector3.up);
+
+
+                if (Input.GetKey(forward)) { agent.Move(this.transform.forward * localSpeed); }
+                if (Input.GetKey(backward)) { agent.Move(this.transform.forward * -localSpeed); }
+                if (Input.GetKey(left)) { agent.Move(this.transform.right * -localSpeed); }
+                if (Input.GetKey(right)) { agent.Move(this.transform.right * localSpeed); }
             }
-
-
-            cameraSensitivity = Player.Instance.CameraSensitivty;
-            Vector2 mouseChange = new Vector2(Input.GetAxisRaw("Mouse X"), -Input.GetAxisRaw("Mouse Y"));
-            mouseDirection += mouseChange;
-            this.transform.localRotation = Quaternion.AngleAxis(mouseDirection.x * cameraSensitivity, Vector3.up);
-
-
-            if (Input.GetKey(forward)) { agent.Move(this.transform.forward * localSpeed); }
-            if (Input.GetKey(backward)) { agent.Move(this.transform.forward * -localSpeed); }
-            if (Input.GetKey(left)) { agent.Move(this.transform.right * -localSpeed); }
-            if (Input.GetKey(right)) { agent.Move(this.transform.right * localSpeed); }
         }
     }
 }

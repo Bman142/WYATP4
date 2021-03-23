@@ -3,20 +3,23 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SceneChanger : MonoBehaviour
+namespace WYATP
 {
-    public void ChangeScene(int buildIndexID)
+    public class SceneChanger : MonoBehaviour
     {
-        SceneManager.LoadScene(buildIndexID);
-    }
+        public void ChangeScene(int buildIndexID)
+        {
+            SceneManager.LoadScene(buildIndexID);
+        }
 
-    public void ExitGame()
-    {
-        Application.Quit();
-    }
+        public void ExitGame()
+        {
+            Application.Quit();
+        }
 
-    public void DestroyPlayer(GameObject player)
-    {
-        Destroy(player);
+        public void DestroyPlayer(GameObject player)
+        {
+            Destroy(player);
+        }
     }
 }

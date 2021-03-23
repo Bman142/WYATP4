@@ -1,18 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class FrontDoor : Interactable
+namespace WYATP.Interactions
 {
-    // Start is called before the first frame update
-    void Start()
+    public class FrontDoor : Interactable
     {
-        this.tag = "FrontDoor";
-    }
+        // Start is called before the first frame update
+        void Start()
+        {
+            this.tag = "FrontDoor";
+        }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        // Update is called once per frame
+        void Update()
+        {
+
+        }
     }
 }
