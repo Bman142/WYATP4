@@ -8,7 +8,7 @@ TagManager:
   - Door
   - FrontDoor
   - Fire
-  - PickUp
+  - StoryItem
   layers:
   - Default
   - TransparentFX

@@ -33,5 +33,10 @@ namespace WYATP
             r.material.color = normal;
         }
 
+        public void DisableHighlight()
+        {
+            this.GetComponent<Highlight>().enabled = false;
+        }
+
     }
 }
