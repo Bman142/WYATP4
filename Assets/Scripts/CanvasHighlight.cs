@@ -1,21 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace WYATP
 {
-    public class Highlight : MonoBehaviour
+    public class CanvasHighlight : MonoBehaviour
     {
         [SerializeField] Color highlight;
         Color normal;
-        Renderer r;
+        Image r;
         new bool enabled = false;
         public bool Enabled { get { return enabled; } set { enabled = value; } }
 
         private void Start()
         {
-            r = this.GetComponent<Renderer>();
-            normal = r.material.color;
+            r = this.GetComponent<Image>();
+            normal = r.color;
         }
         private void OnMouseOver()
         {
@@ -23,16 +24,17 @@ namespace WYATP
             float dist = Vector3.Distance(PlayerControl.Player.Instance.transform.position, this.transform.position);
             if (dist < 5)
             {
-                r.material.color = highlight;
+                r.color = highlight;
+                
             }
-            else 
+            else
             {
-                r.material.color = normal;
+                r.color = normal;
             }
         }
         private void OnMouseExit()
         {
-            r.material.color = normal;
+            r.color = normal;
         }
 
         public void ToggleHighlight()

@@ -21,5 +21,10 @@ namespace WYATP
         {
             Destroy(player);
         }
+        public void EndGame()
+        {
+            ChangeScene(0);
+            DestroyPlayer(GameObject.FindGameObjectWithTag("Player"));
+        }
     }
 }
