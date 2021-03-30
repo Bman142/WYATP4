@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "ca.andydbc.unity-texture-packer": "file:C:/Users/bloffler/Desktop/unity-texture-packer-master",
+    "ca.andydbc.unity-texture-packer": "https://github.com/andydbc/unity-texture-packer.git#0.1.0",
     "com.unity.2d.sprite": "1.0.0",
     "com.unity.collab-proxy": "1.3.9",
     "com.unity.ext.nunit": "1.0.6",

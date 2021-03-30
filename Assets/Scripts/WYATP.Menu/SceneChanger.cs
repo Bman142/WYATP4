@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace WYATP
+namespace WYATP.Menu
 {
     public class SceneChanger : MonoBehaviour
     {

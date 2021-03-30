@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-namespace WYATP
+namespace WYATP.Menu
 {
     public class SettingsManager : MonoBehaviour
     {
