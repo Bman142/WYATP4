@@ -10,13 +10,7 @@ namespace WYATP
         [SerializeField] float cluesFound = 0;
         [SerializeField] Flowchart flowchart;
         bool executed = false;
-        // Start is called before the first frame update
-        void Start()
-        {
-
-        }
-
-        // Update is called once per frame
+        
         void Update()
         {
             if(cluesFound >= 3 && !executed)
@@ -29,6 +23,15 @@ namespace WYATP
         public void ClueFound()
         {
             cluesFound += 1;
+        }
+
+        public void RebelEnd()
+        {
+            PlayerControl.Player.Instance.LevelEnd = PlayerControl.Player.levelEnding.Rebel;
+        }
+        public void GovernmentEnd()
+        {
+            PlayerControl.Player.Instance.LevelEnd = PlayerControl.Player.levelEnding.Government;
         }
     }
 }

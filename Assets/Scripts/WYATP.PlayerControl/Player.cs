@@ -30,6 +30,9 @@ namespace WYATP.PlayerControl
 
         private int volume;
         public int Volume { get { return volume; } set { volume = value; } }
+        public enum levelEnding { Rebel, Government}
+        [SerializeField] private levelEnding levelEnd;
+        public levelEnding LevelEnd { get { return levelEnd; } set { levelEnd = value; } }
 
         private void Awake()
         {
@@ -62,6 +65,7 @@ namespace WYATP.PlayerControl
 
             foreach(AudioSource source in audioSources)
             {
+                Debug.Log(source.gameObject.name);
                 source.volume *= Volume;
             }
         }
@@ -69,6 +73,8 @@ namespace WYATP.PlayerControl
         {
             cursorLock = !cursorLock;
         }
+
+        
 
         // Start is called before the first frame update
         void Start()
