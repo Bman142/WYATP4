@@ -3811,7 +3811,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh57758
+  m_Name: pb_Mesh24044
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -4614,45 +4614,26 @@ GameObject:
   - component: {fileID: 863814077}
   - component: {fileID: 863814080}
   - component: {fileID: 863814084}
-  - component: {fileID: 863814086}
   - component: {fileID: 863814088}
-  - component: {fileID: 863814090}
-  - component: {fileID: 863814089}
   - component: {fileID: 863814097}
   - component: {fileID: 863814100}
-  - component: {fileID: 863814102}
-  - component: {fileID: 863814099}
   - component: {fileID: 863814108}
   - component: {fileID: 863814078}
   - component: {fileID: 863814109}
   - component: {fileID: 863814098}
   - component: {fileID: 863814096}
   - component: {fileID: 863814092}
-  - component: {fileID: 863814091}
-  - component: {fileID: 863814083}
-  - component: {fileID: 863814114}
-  - component: {fileID: 863814115}
   - component: {fileID: 863814121}
   - component: {fileID: 863814124}
   - component: {fileID: 863814122}
-  - component: {fileID: 863814145}
   - component: {fileID: 863814129}
   - component: {fileID: 863814127}
   - component: {fileID: 863814134}
   - component: {fileID: 863814148}
-  - component: {fileID: 863814153}
   - component: {fileID: 863814150}
-  - component: {fileID: 863814149}
   - component: {fileID: 863814161}
   - component: {fileID: 863814159}
   - component: {fileID: 863814158}
-  - component: {fileID: 863814163}
-  - component: {fileID: 863814154}
-  - component: {fileID: 863814156}
-  - component: {fileID: 863814155}
-  - component: {fileID: 863814157}
-  - component: {fileID: 863814165}
-  - component: {fileID: 863814164}
   - component: {fileID: 863814139}
   - component: {fileID: 863814138}
   - component: {fileID: 863814137}
@@ -4660,17 +4641,14 @@ GameObject:
   - component: {fileID: 863814135}
   - component: {fileID: 863814133}
   - component: {fileID: 863814132}
-  - component: {fileID: 863814131}
   - component: {fileID: 863814130}
   - component: {fileID: 863814128}
   - component: {fileID: 863814126}
-  - component: {fileID: 863814125}
   - component: {fileID: 863814123}
   - component: {fileID: 863814120}
   - component: {fileID: 863814119}
   - component: {fileID: 863814118}
   - component: {fileID: 863814117}
-  - component: {fileID: 863814116}
   - component: {fileID: 863814113}
   - component: {fileID: 863814112}
   - component: {fileID: 863814111}
@@ -4686,14 +4664,35 @@ GameObject:
   - component: {fileID: 863814082}
   - component: {fileID: 863814146}
   - component: {fileID: 863814144}
-  - component: {fileID: 863814143}
   - component: {fileID: 863814142}
   - component: {fileID: 863814141}
   - component: {fileID: 863814140}
-  - component: {fileID: 863814103}
-  - component: {fileID: 863814101}
-  - component: {fileID: 863814095}
+  - component: {fileID: 863814147}
+  - component: {fileID: 863814156}
+  - component: {fileID: 863814155}
+  - component: {fileID: 863814154}
+  - component: {fileID: 863814153}
+  - component: {fileID: 863814152}
+  - component: {fileID: 863814151}
+  - component: {fileID: 863814149}
+  - component: {fileID: 863814145}
+  - component: {fileID: 863814143}
+  - component: {fileID: 863814131}
+  - component: {fileID: 863814125}
+  - component: {fileID: 863814116}
+  - component: {fileID: 863814115}
+  - component: {fileID: 863814083}
+  - component: {fileID: 863814086}
   - component: {fileID: 863814079}
+  - component: {fileID: 863814114}
+  - component: {fileID: 863814103}
+  - component: {fileID: 863814102}
+  - component: {fileID: 863814101}
+  - component: {fileID: 863814099}
+  - component: {fileID: 863814095}
+  - component: {fileID: 863814091}
+  - component: {fileID: 863814090}
+  - component: {fileID: 863814089}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -4714,7 +4713,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -503.88318, y: 165.82196}
+  scrollPos: {x: -492.88318, y: 125.82196}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 401.66666
@@ -4726,7 +4725,7 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 863814097}
+  - {fileID: 863814078}
   selectedCommands: []
   variables:
   - {fileID: 863814129}
@@ -4755,9 +4754,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 691.65
-    y: 79.535614
-    width: 60
+    x: 703.65
+    y: 193.53561
+    width: 78
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4767,34 +4766,44 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 863814134}
-  - {fileID: 863814114}
-  - {fileID: 863814145}
+  - {fileID: 863814086}
+  - {fileID: 863814083}
   - {fileID: 863814109}
   - {fileID: 863814098}
   - {fileID: 863814096}
   - {fileID: 863814117}
   - {fileID: 863814092}
   - {fileID: 863814118}
-  - {fileID: 863814091}
-  - {fileID: 863814083}
+  - {fileID: 863814079}
   suppressAllAutoSelections: 0
 --- !u!114 &863814079
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 863814076}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 163
-  indentLevel: 0
-  targetObject: {fileID: 513378062}
-  methodName: ToggleHighlight
-  delay: 0
+  itemId: 180
+  indentLevel: 1
+  description: 
+  targetObject: {fileID: 434503015}
+  targetComponentAssemblyName: WYATP.PlayerControl.Player, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: Player
+  targetMethod: SetInMenu
+  targetMethodText: 'SetInMenu (): Void'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
 --- !u!114 &863814080
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4811,7 +4820,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 842.1815
     y: -75.09082
-    width: 60
+    width: 77.333336
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4820,7 +4829,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 863814108}
   commandList:
-  - {fileID: 863814086}
+  - {fileID: 863814143}
   - {fileID: 863814084}
   - {fileID: 863814121}
   - {fileID: 863814139}
@@ -4830,7 +4839,7 @@ MonoBehaviour:
   - {fileID: 863814135}
   - {fileID: 863814133}
   - {fileID: 863814130}
-  - {fileID: 863814115}
+  - {fileID: 863814131}
   - {fileID: 863814128}
   - {fileID: 863814126}
   suppressAllAutoSelections: 0
@@ -4877,22 +4886,32 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &863814083
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 863814076}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 52
+  itemId: 178
   indentLevel: 1
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 10
-  durationOLD: 0
+  description: 
+  targetObject: {fileID: 513378062}
+  targetComponentAssemblyName: WYATP.Interactions.Highlight, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: Highlight
+  targetMethod: ToggleHighlight
+  targetMethodText: 'ToggleHighlight (): Void'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
 --- !u!114 &863814084
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4948,21 +4967,32 @@ MonoBehaviour:
     booleanVal: 0
 --- !u!114 &863814086
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 863814076}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 7
-  indentLevel: 0
+  itemId: 179
+  indentLevel: 1
+  description: 
   targetObject: {fileID: 434503015}
-  methodName: SetInMenu
-  delay: 0
+  targetComponentAssemblyName: WYATP.PlayerControl.Player, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: Player
+  targetMethod: SetInMenu
+  targetMethodText: 'SetInMenu (): Void'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
 --- !u!114 &863814087
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5002,9 +5032,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1198.0004
-    y: 186.18207
-    width: 94
+    x: 1197.0004
+    y: 188.18207
+    width: 134
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5013,64 +5043,97 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 863814090}
+  - {fileID: 863814089}
   - {fileID: 863814110}
   - {fileID: 863814107}
   - {fileID: 863814106}
-  - {fileID: 863814089}
-  - {fileID: 863814156}
+  - {fileID: 863814101}
+  - {fileID: 863814099}
   suppressAllAutoSelections: 0
 --- !u!114 &863814089
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 863814076}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 12
+  itemId: 189
   indentLevel: 0
+  description: 
   targetObject: {fileID: 434503015}
-  methodName: SetInMenu
-  delay: 0
+  targetComponentAssemblyName: WYATP.PlayerControl.Player, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: Player
+  targetMethod: SetInMenu
+  targetMethodText: 'SetInMenu (): Void'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
 --- !u!114 &863814090
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 863814076}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 11
+  itemId: 188
   indentLevel: 0
+  description: 
   targetObject: {fileID: 434503015}
-  methodName: SetInMenu
-  delay: 0
+  targetComponentAssemblyName: WYATP.PlayerControl.Player, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: Player
+  targetMethod: SetInMenu
+  targetMethodText: 'SetInMenu (): Void'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
 --- !u!114 &863814091
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 863814076}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 51
-  indentLevel: 1
+  itemId: 187
+  indentLevel: 0
+  description: 
   targetObject: {fileID: 434503015}
-  methodName: SetInMenu
-  delay: 0
+  targetComponentAssemblyName: WYATP.FinalDecisionScript, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: FinalDecisionScript
+  targetMethod: ClueFound
+  targetMethodText: 'ClueFound (): Void'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
 --- !u!114 &863814092
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5155,21 +5218,32 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &863814095
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 863814076}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 162
+  itemId: 186
   indentLevel: 0
+  description: 
   targetObject: {fileID: 434503015}
-  methodName: SetInMenu
-  delay: 0
+  targetComponentAssemblyName: WYATP.PlayerControl.Player, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: Player
+  targetMethod: SetInMenu
+  targetMethodText: 'SetInMenu (): Void'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
 --- !u!114 &863814096
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5214,9 +5288,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 939.2862
+    x: 938.2862
     y: 457.18146
-    width: 99.333336
+    width: 139.33334
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5225,8 +5299,8 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 863814095}
-  - {fileID: 863814079}
+  - {fileID: 863814153}
+  - {fileID: 863814152}
   - {fileID: 863814094}
   - {fileID: 863814093}
   - {fileID: 863814087}
@@ -5261,21 +5335,32 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &863814099
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 863814076}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 27
+  itemId: 185
   indentLevel: 0
+  description: 
   targetObject: {fileID: 434503015}
-  methodName: SetInMenu
-  delay: 0
+  targetComponentAssemblyName: WYATP.FinalDecisionScript, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: FinalDecisionScript
+  targetMethod: ClueFound
+  targetMethodText: 'ClueFound (): Void'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
 --- !u!114 &863814100
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5292,7 +5377,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 963.5447
     y: 184.50018
-    width: 73.33333
+    width: 113.33333
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5301,64 +5386,97 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 863814102}
+  - {fileID: 863814114}
   - {fileID: 863814113}
   - {fileID: 863814112}
   - {fileID: 863814111}
-  - {fileID: 863814099}
-  - {fileID: 863814154}
+  - {fileID: 863814103}
+  - {fileID: 863814102}
   suppressAllAutoSelections: 0
 --- !u!114 &863814101
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 863814076}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 161
+  itemId: 184
   indentLevel: 0
-  targetObject: {fileID: 513378062}
-  methodName: ToggleHighlight
-  delay: 0
+  description: 
+  targetObject: {fileID: 434503015}
+  targetComponentAssemblyName: WYATP.PlayerControl.Player, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: Player
+  targetMethod: SetInMenu
+  targetMethodText: 'SetInMenu (): Void'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
 --- !u!114 &863814102
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 863814076}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 25
+  itemId: 183
   indentLevel: 0
+  description: 
   targetObject: {fileID: 434503015}
-  methodName: SetInMenu
-  delay: 0
+  targetComponentAssemblyName: WYATP.FinalDecisionScript, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: FinalDecisionScript
+  targetMethod: ClueFound
+  targetMethodText: 'ClueFound (): Void'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
 --- !u!114 &863814103
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 863814076}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 160
+  itemId: 182
   indentLevel: 0
+  description: 
   targetObject: {fileID: 434503015}
-  methodName: SetInMenu
-  delay: 0
+  targetComponentAssemblyName: WYATP.PlayerControl.Player, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: Player
+  targetMethod: SetInMenu
+  targetMethodText: 'SetInMenu (): Void'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
 --- !u!114 &863814104
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5627,55 +5745,88 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &863814114
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 863814076}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 54
-  indentLevel: 1
+  itemId: 181
+  indentLevel: 0
+  description: 
   targetObject: {fileID: 434503015}
-  methodName: SetInMenu
-  delay: 0
+  targetComponentAssemblyName: WYATP.PlayerControl.Player, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: Player
+  targetMethod: SetInMenu
+  targetMethodText: 'SetInMenu (): Void'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
 --- !u!114 &863814115
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 863814076}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 55
+  itemId: 177
   indentLevel: 0
-  targetObject: {fileID: 434503015}
-  methodName: SetInMenu
-  delay: 0
+  description: 
+  targetObject: {fileID: 513378062}
+  targetComponentAssemblyName: WYATP.Interactions.Highlight, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: Highlight
+  targetMethod: ToggleHighlight
+  targetMethodText: 'ToggleHighlight (): Void'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
 --- !u!114 &863814116
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 863814076}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 137
+  itemId: 176
   indentLevel: 0
+  description: 
   targetObject: {fileID: 434503015}
-  methodName: SetInMenu
-  delay: 0
+  targetComponentAssemblyName: WYATP.PlayerControl.Player, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: Player
+  targetMethod: SetInMenu
+  targetMethodText: 'SetInMenu (): Void'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
 --- !u!114 &863814117
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5828,9 +5979,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1139.8365
+    x: 1138.8365
     y: 610.1289
-    width: 81.333336
+    width: 121.333336
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5841,8 +5992,8 @@ MonoBehaviour:
   commandList:
   - {fileID: 863814161}
   - {fileID: 863814082}
-  - {fileID: 863814164}
-  - {fileID: 863814163}
+  - {fileID: 863814156}
+  - {fileID: 863814147}
   suppressAllAutoSelections: 0
 --- !u!114 &863814123
 MonoBehaviour:
@@ -5885,9 +6036,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 771.65
+    x: 772.65
     y: 597.53564
-    width: 72.66667
+    width: 112.66667
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5898,26 +6049,37 @@ MonoBehaviour:
   commandList:
   - {fileID: 863814159}
   - {fileID: 863814158}
-  - {fileID: 863814165}
-  - {fileID: 863814157}
+  - {fileID: 863814155}
+  - {fileID: 863814154}
   suppressAllAutoSelections: 0
 --- !u!114 &863814125
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 863814076}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 131
+  itemId: 175
   indentLevel: 0
+  description: 
   targetObject: {fileID: 434503015}
-  methodName: SetInMenu
-  delay: 0
+  targetComponentAssemblyName: WYATP.PlayerControl.Player, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: Player
+  targetMethod: SetInMenu
+  targetMethodText: 'SetInMenu (): Void'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
 --- !u!114 &863814126
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6017,21 +6179,32 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &863814131
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 863814076}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 127
+  itemId: 174
   indentLevel: 0
-  targetObject: {fileID: 513378062}
-  methodName: ToggleHighlight
-  delay: 0
+  description: 
+  targetObject: {fileID: 434503015}
+  targetComponentAssemblyName: WYATP.PlayerControl.Player, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: Player
+  targetMethod: SetInMenu
+  targetMethodText: 'SetInMenu (): Void'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
 --- !u!114 &863814132
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6046,9 +6219,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 832.8832
-    y: 7.178055
-    width: 75.333336
+    x: 822.8832
+    y: 69.178055
+    width: 115.333336
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6062,7 +6235,7 @@ MonoBehaviour:
   - {fileID: 863814120}
   - {fileID: 863814119}
   - {fileID: 863814116}
-  - {fileID: 863814131}
+  - {fileID: 863814115}
   suppressAllAutoSelections: 0
 --- !u!114 &863814133
 MonoBehaviour:
@@ -6556,21 +6729,32 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &863814143
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 863814076}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 156
+  itemId: 173
   indentLevel: 0
+  description: 
   targetObject: {fileID: 434503015}
-  methodName: SetInMenu
-  delay: 0
+  targetComponentAssemblyName: WYATP.PlayerControl.Player, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: Player
+  targetMethod: SetInMenu
+  targetMethodText: 'SetInMenu (): Void'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
 --- !u!114 &863814144
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6591,21 +6775,32 @@ MonoBehaviour:
   durationOLD: 0
 --- !u!114 &863814145
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 863814076}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 85
-  indentLevel: 1
-  targetObject: {fileID: 513378062}
-  methodName: ToggleHighlight
-  delay: 0
+  itemId: 172
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 434503015}
+  targetComponentAssemblyName: WYATP.PlayerControl.Player, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: Player
+  targetMethod: SetInMenu
+  targetMethodText: 'SetInMenu (): Void'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
 --- !u!114 &863814146
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6621,8 +6816,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 946.8832
-    y: 330.17804
-    width: 93.333336
+    y: 329.17804
+    width: 133.33334
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6632,13 +6827,58 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 863814144}
-  - {fileID: 863814143}
+  - {fileID: 863814151}
   - {fileID: 863814142}
   - {fileID: 863814141}
   - {fileID: 863814140}
-  - {fileID: 863814103}
-  - {fileID: 863814101}
+  - {fileID: 863814145}
+  - {fileID: 863814149}
   suppressAllAutoSelections: 0
+--- !u!114 &863814147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 863814076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 164
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 1768877731}
+  targetComponentAssemblyName: WYATP.LevelLoader, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: LevelLoader
+  targetMethod: LoadSetLevel
+  targetMethodText: 'LoadSetLevel (Int32): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Int32
+      intValue: 2
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
 --- !u!114 &863814148
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6655,7 +6895,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1466.8832
     y: 186.17805
-    width: 79.333336
+    width: 119.333336
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6664,30 +6904,41 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 863814153}
+  - {fileID: 863814090}
   - {fileID: 863814150}
   - {fileID: 863814105}
   - {fileID: 863814104}
-  - {fileID: 863814149}
-  - {fileID: 863814155}
+  - {fileID: 863814095}
+  - {fileID: 863814091}
   suppressAllAutoSelections: 0
 --- !u!114 &863814149
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 863814076}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 100
+  itemId: 171
   indentLevel: 0
-  targetObject: {fileID: 434503015}
-  methodName: SetInMenu
-  delay: 0
+  description: 
+  targetObject: {fileID: 513378062}
+  targetComponentAssemblyName: WYATP.Interactions.Highlight, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: Highlight
+  targetMethod: ToggleHighlight
+  targetMethodText: 'ToggleHighlight (): Void'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
 --- !u!114 &863814150
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6717,91 +6968,225 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &863814151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 863814076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 170
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 434503015}
+  targetComponentAssemblyName: WYATP.PlayerControl.Player, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: Player
+  targetMethod: SetInMenu
+  targetMethodText: 'SetInMenu (): Void'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &863814152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 863814076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 169
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 513378062}
+  targetComponentAssemblyName: WYATP.Interactions.Highlight, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: Highlight
+  targetMethod: ToggleHighlight
+  targetMethodText: 'ToggleHighlight (): Void'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
 --- !u!114 &863814153
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 863814076}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 96
+  itemId: 168
   indentLevel: 0
+  description: 
   targetObject: {fileID: 434503015}
-  methodName: SetInMenu
-  delay: 0
+  targetComponentAssemblyName: WYATP.PlayerControl.Player, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: Player
+  targetMethod: SetInMenu
+  targetMethodText: 'SetInMenu (): Void'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
 --- !u!114 &863814154
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 863814076}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 114
+  itemId: 167
   indentLevel: 0
-  targetObject: {fileID: 434503015}
-  methodName: ClueFound
-  delay: 0
+  description: 
+  targetObject: {fileID: 1768877731}
+  targetComponentAssemblyName: WYATP.LevelLoader, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: LevelLoader
+  targetMethod: LoadSetLevel
+  targetMethodText: 'LoadSetLevel (Int32): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Int32
+      intValue: 2
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
 --- !u!114 &863814155
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 863814076}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 116
+  itemId: 166
   indentLevel: 0
+  description: 
   targetObject: {fileID: 434503015}
-  methodName: ClueFound
-  delay: 0
+  targetComponentAssemblyName: WYATP.PlayerControl.Player, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: Player
+  targetMethod: SetEnding
+  targetMethodText: 'SetEnding (levelEnding): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: WYATP.PlayerControl.Player+levelEnding, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      typeFullname: WYATP.PlayerControl.Player+levelEnding
+      intValue: 0
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
 --- !u!114 &863814156
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 863814076}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 115
+  itemId: 165
   indentLevel: 0
+  description: 
   targetObject: {fileID: 434503015}
-  methodName: ClueFound
-  delay: 0
---- !u!114 &863814157
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 863814076}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 117
-  indentLevel: 0
-  targetObject: {fileID: 1768877731}
-  methodName: LoadNextLevel
-  delay: 0
+  targetComponentAssemblyName: WYATP.PlayerControl.Player, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: Player
+  targetMethod: SetEnding
+  targetMethodText: 'SetEnding (levelEnding): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: WYATP.PlayerControl.Player+levelEnding, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      typeFullname: WYATP.PlayerControl.Player+levelEnding
+      intValue: 1
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
 --- !u!114 &863814158
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6883,57 +7268,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &863814163
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 863814076}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 113
-  indentLevel: 0
-  targetObject: {fileID: 1768877731}
-  methodName: LoadNextLevel
-  delay: 0
---- !u!114 &863814164
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 863814076}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 119
-  indentLevel: 0
-  targetObject: {fileID: 434503015}
-  methodName: GovernmentEnd
-  delay: 0
---- !u!114 &863814165
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 863814076}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 118
-  indentLevel: 0
-  targetObject: {fileID: 434503015}
-  methodName: RebelEnd
-  delay: 0
 --- !u!1001 &880405171
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8516,7 +8850,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh24798
+  m_Name: pb_Mesh24804
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2

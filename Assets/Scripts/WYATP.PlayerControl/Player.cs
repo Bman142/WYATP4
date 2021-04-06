@@ -74,7 +74,10 @@ namespace WYATP.PlayerControl
             cursorLock = !cursorLock;
         }
 
-        
+        public void SetEnding(levelEnding end)
+        {
+            LevelEnd = end;
+        }
 
         // Start is called before the first frame update
         void Start()

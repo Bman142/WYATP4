@@ -28,13 +28,6 @@ namespace WYATP
         {
             return cluesFound;
         }
-        public void RebelEnd()
-        {
-            PlayerControl.Player.Instance.LevelEnd = PlayerControl.Player.levelEnding.Rebel;
-        }
-        public void GovernmentEnd()
-        {
-            PlayerControl.Player.Instance.LevelEnd = PlayerControl.Player.levelEnding.Government;
-        }
+        
     }
 }
