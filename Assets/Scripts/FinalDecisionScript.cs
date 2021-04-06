@@ -24,7 +24,10 @@ namespace WYATP
         {
             cluesFound += 1;
         }
-
+        public float CluesFound()
+        {
+            return cluesFound;
+        }
         public void RebelEnd()
         {
             PlayerControl.Player.Instance.LevelEnd = PlayerControl.Player.levelEnding.Rebel;

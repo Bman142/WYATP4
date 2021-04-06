@@ -60,7 +60,7 @@ namespace WYATP.PlayerControl
 
                     if (Physics.Raycast(ray, out hit, 2))
                     {
-                        //Debug.Log("Hit " + hit.collider.name);
+                        //Debug.Log("Hit " + hit.collider.gameObject.GetComponent<Interactions.StoryItem>().ToString());
                         if (hit.collider.gameObject.tag == "Clue")
                         {
                             hit.collider.GetComponent<Interactions.Clue>().OnInteract();
@@ -71,7 +71,8 @@ namespace WYATP.PlayerControl
                         }
                         else if (hit.collider.gameObject.tag == "StoryItem")
                         {
-                            hit.collider.GetComponent<Interactions.StoryItem>().OnInteract();
+                            hit.collider.gameObject.GetComponent<Interactions.StoryItem>().OnInteract();
+                            hit.collider.gameObject.GetComponent<Interactions.FrontDoor>().OnInteract();
                         }
                         else if(hit.collider.gameObject.tag == "PickUp")
                         {

@@ -764,6 +764,8 @@ Transform:
   - {fileID: 1100665630}
   - {fileID: 167659257}
   - {fileID: 1176916904}
+  - {fileID: 1369774030}
+  - {fileID: 1314100114}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1944,9 +1946,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b66210fd6026f504cbd00af048eb20b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 0.028
+  moveSpeed: 0.05
   control: 0
-  cameraSensitivity: 35
+  cameraSensitivity: 15
   levelEnd: 0
 --- !u!64 &434503020
 MeshCollider:
@@ -3051,7 +3053,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 434503015}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalPosition: {x: 0.77, y: 1, z: 11.62}
   m_LocalScale: {x: 0.5, y: 1, z: 0.5}
   m_Children:
   - {fileID: 55473776}
@@ -3521,24 +3523,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 513378062}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 365ab0cce19b03c4b8a0493e0bdeedb0, type: 3}
+  m_Script: {fileID: 11500000, guid: 24e192252f1baf246acf85d4a10e5121, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Interact:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 863814077}
-        m_TargetAssemblyTypeName: Fungus.Flowchart, Fungus
-        m_MethodName: ExecuteBlock
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Door
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
+  flowchart: {fileID: 863814077}
 --- !u!1001 &514037714
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3820,7 +3811,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh44278
+  m_Name: pb_Mesh57758
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -4625,80 +4616,34 @@ GameObject:
   - component: {fileID: 863814084}
   - component: {fileID: 863814086}
   - component: {fileID: 863814088}
-  - component: {fileID: 863814087}
   - component: {fileID: 863814090}
   - component: {fileID: 863814089}
   - component: {fileID: 863814097}
   - component: {fileID: 863814100}
   - component: {fileID: 863814102}
-  - component: {fileID: 863814101}
   - component: {fileID: 863814099}
-  - component: {fileID: 863814103}
-  - component: {fileID: 863814085}
-  - component: {fileID: 863814107}
-  - component: {fileID: 863814106}
-  - component: {fileID: 863814105}
-  - component: {fileID: 863814104}
   - component: {fileID: 863814108}
-  - component: {fileID: 863814116}
-  - component: {fileID: 863814082}
   - component: {fileID: 863814078}
-  - component: {fileID: 863814113}
-  - component: {fileID: 863814112}
-  - component: {fileID: 863814111}
-  - component: {fileID: 863814110}
   - component: {fileID: 863814109}
   - component: {fileID: 863814098}
   - component: {fileID: 863814096}
-  - component: {fileID: 863814095}
-  - component: {fileID: 863814094}
-  - component: {fileID: 863814093}
   - component: {fileID: 863814092}
   - component: {fileID: 863814091}
   - component: {fileID: 863814083}
-  - component: {fileID: 863814079}
   - component: {fileID: 863814114}
   - component: {fileID: 863814115}
-  - component: {fileID: 863814120}
   - component: {fileID: 863814121}
-  - component: {fileID: 863814118}
-  - component: {fileID: 863814117}
-  - component: {fileID: 863814123}
   - component: {fileID: 863814124}
   - component: {fileID: 863814122}
-  - component: {fileID: 863814119}
-  - component: {fileID: 863814126}
-  - component: {fileID: 863814128}
-  - component: {fileID: 863814125}
-  - component: {fileID: 863814132}
-  - component: {fileID: 863814143}
-  - component: {fileID: 863814142}
-  - component: {fileID: 863814141}
-  - component: {fileID: 863814140}
-  - component: {fileID: 863814139}
-  - component: {fileID: 863814138}
-  - component: {fileID: 863814137}
-  - component: {fileID: 863814136}
-  - component: {fileID: 863814135}
   - component: {fileID: 863814145}
-  - component: {fileID: 863814144}
   - component: {fileID: 863814129}
   - component: {fileID: 863814127}
   - component: {fileID: 863814134}
-  - component: {fileID: 863814131}
-  - component: {fileID: 863814130}
-  - component: {fileID: 863814133}
-  - component: {fileID: 863814147}
-  - component: {fileID: 863814146}
   - component: {fileID: 863814148}
   - component: {fileID: 863814153}
-  - component: {fileID: 863814152}
-  - component: {fileID: 863814151}
   - component: {fileID: 863814150}
   - component: {fileID: 863814149}
-  - component: {fileID: 863814162}
   - component: {fileID: 863814161}
-  - component: {fileID: 863814160}
   - component: {fileID: 863814159}
   - component: {fileID: 863814158}
   - component: {fileID: 863814163}
@@ -4708,6 +4653,47 @@ GameObject:
   - component: {fileID: 863814157}
   - component: {fileID: 863814165}
   - component: {fileID: 863814164}
+  - component: {fileID: 863814139}
+  - component: {fileID: 863814138}
+  - component: {fileID: 863814137}
+  - component: {fileID: 863814136}
+  - component: {fileID: 863814135}
+  - component: {fileID: 863814133}
+  - component: {fileID: 863814132}
+  - component: {fileID: 863814131}
+  - component: {fileID: 863814130}
+  - component: {fileID: 863814128}
+  - component: {fileID: 863814126}
+  - component: {fileID: 863814125}
+  - component: {fileID: 863814123}
+  - component: {fileID: 863814120}
+  - component: {fileID: 863814119}
+  - component: {fileID: 863814118}
+  - component: {fileID: 863814117}
+  - component: {fileID: 863814116}
+  - component: {fileID: 863814113}
+  - component: {fileID: 863814112}
+  - component: {fileID: 863814111}
+  - component: {fileID: 863814110}
+  - component: {fileID: 863814107}
+  - component: {fileID: 863814106}
+  - component: {fileID: 863814105}
+  - component: {fileID: 863814104}
+  - component: {fileID: 863814094}
+  - component: {fileID: 863814093}
+  - component: {fileID: 863814087}
+  - component: {fileID: 863814085}
+  - component: {fileID: 863814082}
+  - component: {fileID: 863814146}
+  - component: {fileID: 863814144}
+  - component: {fileID: 863814143}
+  - component: {fileID: 863814142}
+  - component: {fileID: 863814141}
+  - component: {fileID: 863814140}
+  - component: {fileID: 863814103}
+  - component: {fileID: 863814101}
+  - component: {fileID: 863814095}
+  - component: {fileID: 863814079}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -4728,7 +4714,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -325.88315, y: -239.17805}
+  scrollPos: {x: -503.88318, y: 165.82196}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 401.66666
@@ -4740,9 +4726,8 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 863814122}
-  selectedCommands:
-  - {fileID: 863814164}
+  - {fileID: 863814097}
+  selectedCommands: []
   variables:
   - {fileID: 863814129}
   - {fileID: 863814127}
@@ -4784,20 +4769,14 @@ MonoBehaviour:
   - {fileID: 863814134}
   - {fileID: 863814114}
   - {fileID: 863814145}
-  - {fileID: 863814113}
-  - {fileID: 863814112}
-  - {fileID: 863814111}
-  - {fileID: 863814110}
   - {fileID: 863814109}
   - {fileID: 863814098}
   - {fileID: 863814096}
-  - {fileID: 863814095}
-  - {fileID: 863814094}
-  - {fileID: 863814093}
+  - {fileID: 863814117}
   - {fileID: 863814092}
+  - {fileID: 863814118}
   - {fileID: 863814091}
   - {fileID: 863814083}
-  - {fileID: 863814079}
   suppressAllAutoSelections: 0
 --- !u!114 &863814079
 MonoBehaviour:
@@ -4808,18 +4787,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 863814076}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 53
-  indentLevel: 1
-  targetFlowchart: {fileID: 863814077}
-  targetBlock: {fileID: 863814082}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 0
+  itemId: 163
+  indentLevel: 0
+  targetObject: {fileID: 513378062}
+  methodName: ToggleHighlight
+  delay: 0
 --- !u!114 &863814080
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4834,8 +4809,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 846.1815
-    y: -30.09082
+    x: 842.1815
+    y: -75.09082
     width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -4848,8 +4823,16 @@ MonoBehaviour:
   - {fileID: 863814086}
   - {fileID: 863814084}
   - {fileID: 863814121}
+  - {fileID: 863814139}
+  - {fileID: 863814138}
+  - {fileID: 863814137}
+  - {fileID: 863814136}
+  - {fileID: 863814135}
+  - {fileID: 863814133}
+  - {fileID: 863814130}
   - {fileID: 863814115}
-  - {fileID: 863814147}
+  - {fileID: 863814128}
+  - {fileID: 863814126}
   suppressAllAutoSelections: 0
 --- !u!4 &863814081
 Transform:
@@ -4874,29 +4857,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 863814076}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 666.65
-    y: 188.53561
-    width: 80
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 37
-  blockName: Phone Rings
+  itemId: 153
+  indentLevel: 0
+  storyText: I need to call the police.
   description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 863814118}
-  - {fileID: 863814120}
-  - {fileID: 863814132}
-  - {fileID: 863814133}
-  - {fileID: 863814117}
-  - {fileID: 863814146}
-  suppressAllAutoSelections: 0
+  character: {fileID: 1820075857}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &863814083
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4929,9 +4907,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3
   indentLevel: 0
-  storyText: '{i}*Knock Knock*{i}'
+  storyText: Due to rising unrest within the populace, Peace keeping forces are being
+    deployed in more regular routine patrols.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1369774031}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 8300000, guid: f09eec5f5b90a9a4194276a2eac66b21, type: 3}
   showAlways: 1
@@ -4951,25 +4930,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 863814076}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 29
+  itemId: 152
   indentLevel: 0
-  storyText: She was terribly upset that her uncle jack couldn't attend due to those
-    weird charges he'd recieved, though.
+  text: Report to the Government
   description: 
-  character: {fileID: 1820075857}
-  portrait: {fileID: 21300000, guid: 784332953e98f1447b28787faa297c4c, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  targetBlock: {fileID: 863814122}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &863814086
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4996,24 +4972,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 863814076}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 10
+  itemId: 151
   indentLevel: 0
-  storyText: Ah, Adele and I's Wedding Photo
+  text: Join the Revolution
   description: 
-  character: {fileID: 1820075857}
-  portrait: {fileID: 21300000, guid: 784332953e98f1447b28787faa297c4c, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  targetBlock: {fileID: 863814124}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &863814088
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5028,9 +5002,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1200.0004
+    x: 1198.0004
     y: 186.18207
-    width: 90
+    width: 94
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5040,10 +5014,9 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 863814090}
-  - {fileID: 863814087}
-  - {fileID: 863814103}
-  - {fileID: 863814085}
+  - {fileID: 863814110}
   - {fileID: 863814107}
+  - {fileID: 863814106}
   - {fileID: 863814089}
   - {fileID: 863814156}
   suppressAllAutoSelections: 0
@@ -5137,13 +5110,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 49
-  indentLevel: 1
-  storyText: I'd just be in real trouble if they found anything, so, just get it
-    cleaned up
+  itemId: 150
+  indentLevel: 0
+  storyText: 'If you want to make a difference, Time the light the night and break
+    for dawn. '
   description: 
-  character: {fileID: 1100665629}
-  portrait: {fileID: 21300000, guid: 405fbb8b487f02e4a9bda4cf18334809, type: 3}
+  character: {fileID: 1314100115}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5165,12 +5138,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 48
-  indentLevel: 1
-  storyText: Don't think this is because I want to help you or something
+  itemId: 149
+  indentLevel: 0
+  storyText: Oh, Thank You
   description: 
-  character: {fileID: 1100665629}
-  portrait: {fileID: 21300000, guid: 405fbb8b487f02e4a9bda4cf18334809, type: 3}
+  character: {fileID: 1820075857}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5189,24 +5162,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 863814076}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 47
-  indentLevel: 1
-  storyText: Oh, Thanks for the warn-
-  description: 
-  character: {fileID: 1820075857}
-  portrait: {fileID: 21300000, guid: 784332953e98f1447b28787faa297c4c, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  itemId: 162
+  indentLevel: 0
+  targetObject: {fileID: 434503015}
+  methodName: SetInMenu
+  delay: 0
 --- !u!114 &863814096
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5221,10 +5184,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 46
   indentLevel: 1
-  storyText: Listen, there's a sweep coming here later today
+  storyText: 'This is a notification about inspections happening in the following
+    days be ready for government officials and Brotherhood Forces.
+
+'
   description: 
   character: {fileID: 1100665629}
-  portrait: {fileID: 21300000, guid: 405fbb8b487f02e4a9bda4cf18334809, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5248,21 +5214,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 952.2862
-    y: 475.18146
-    width: 89
+    x: 939.2862
+    y: 457.18146
+    width: 99.333336
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 23
-  blockName: Final Decision
+  blockName: Final Decision1
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 863814162}
-  - {fileID: 863814116}
-  - {fileID: 863814123}
-  - {fileID: 863814119}
+  - {fileID: 863814095}
+  - {fileID: 863814079}
+  - {fileID: 863814094}
+  - {fileID: 863814093}
+  - {fileID: 863814087}
+  - {fileID: 863814085}
   suppressAllAutoSelections: 0
 --- !u!114 &863814098
 MonoBehaviour:
@@ -5281,7 +5249,7 @@ MonoBehaviour:
   storyText: What can I do for yo-
   description: 
   character: {fileID: 1820075857}
-  portrait: {fileID: 21300000, guid: 784332953e98f1447b28787faa297c4c, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5324,7 +5292,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 963.5447
     y: 184.50018
-    width: 70
+    width: 73.33333
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5334,10 +5302,9 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 863814102}
-  - {fileID: 863814101}
-  - {fileID: 863814106}
-  - {fileID: 863814105}
-  - {fileID: 863814104}
+  - {fileID: 863814113}
+  - {fileID: 863814112}
+  - {fileID: 863814111}
   - {fileID: 863814099}
   - {fileID: 863814154}
   suppressAllAutoSelections: 0
@@ -5350,24 +5317,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 863814076}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 26
+  itemId: 161
   indentLevel: 0
-  storyText: I still can't believe it's been 3 years since the bombing.
-  description: 
-  character: {fileID: 1820075857}
-  portrait: {fileID: 21300000, guid: 784332953e98f1447b28787faa297c4c, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  targetObject: {fileID: 513378062}
+  methodName: ToggleHighlight
+  delay: 0
 --- !u!114 &863814102
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5394,25 +5351,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 863814076}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 28
+  itemId: 160
   indentLevel: 0
-  storyText: Her Family Hated my guts. I Like to think I won them over in the end
-    though
-  description: 
-  character: {fileID: 1820075857}
-  portrait: {fileID: 21300000, guid: 784332953e98f1447b28787faa297c4c, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  targetObject: {fileID: 434503015}
+  methodName: SetInMenu
+  delay: 0
 --- !u!114 &863814104
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5425,13 +5371,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 33
+  itemId: 145
   indentLevel: 0
-  storyText: The landlord really saved our hides giving us a chance though. No one
-    else would rent to the parents of a known terrorist
+  storyText: Is it really being alive anymore?
   description: 
   character: {fileID: 1820075857}
-  portrait: {fileID: 21300000, guid: 784332953e98f1447b28787faa297c4c, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5453,12 +5398,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 32
+  itemId: 144
   indentLevel: 0
-  storyText: 'I''m surprised Adele and I didn''t hang for it once they found out. '
+  storyText: Everyone seems to be doing better. Though with all this technology everywhere.
+    I guess people are forgetting what it was like before all this and forgetting
+    what opportunities there were before.
   description: 
   character: {fileID: 1820075857}
-  portrait: {fileID: 21300000, guid: 784332953e98f1447b28787faa297c4c, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5480,12 +5427,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 31
+  itemId: 143
   indentLevel: 0
-  storyText: To think, my own son was a rookie terrorist
+  storyText: I hope she made it there safely. It is troublesome one of us has to
+    always stay at home due to new laws.
   description: 
   character: {fileID: 1820075857}
-  portrait: {fileID: 21300000, guid: 784332953e98f1447b28787faa297c4c, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5507,13 +5455,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 30
+  itemId: 142
   indentLevel: 0
-  storyText: She Cried her eyes out while her father and I worked to get around it,
-    to no avail
+  storyText: The curfews and artificial landscaping and construction over natural
+    landscapes really damped her heart lately. I guess it is a good thing she is
+    visiting her mother in the countryside.
   description: 
   character: {fileID: 1820075857}
-  portrait: {fileID: 21300000, guid: 784332953e98f1447b28787faa297c4c, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5555,7 +5504,7 @@ MonoBehaviour:
   storyText: Finally
   description: 
   character: {fileID: 1100665629}
-  portrait: {fileID: 21300000, guid: 405fbb8b487f02e4a9bda4cf18334809, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5574,15 +5523,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 863814076}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 43
-  indentLevel: 1
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 1
-  durationOLD: 0
+  itemId: 141
+  indentLevel: 0
+  storyText: She was such a free spirit, Painting the world for what it could be
+    rather than what it was.
+  description: 
+  character: {fileID: 1820075857}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &863814111
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5595,12 +5554,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 42
-  indentLevel: 1
-  storyText: '{i}Oh, The Land Lord. Hope we didn''t miss a rent payment{i}'
+  itemId: 140
+  indentLevel: 0
+  storyText: I wonder how he is doing.
   description: 
   character: {fileID: 1820075857}
-  portrait: {fileID: 21300000, guid: 784332953e98f1447b28787faa297c4c, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5622,12 +5581,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 41
-  indentLevel: 1
-  storyText: It's Me. Open Up
+  itemId: 139
+  indentLevel: 0
+  storyText: ' I guess that was why he followed the movement. They were fighting
+    to make a change for humanity, he was bound to up and go join them.'
   description: 
-  character: {fileID: 1492695110}
-  portrait: {fileID: 21300000, guid: 9323a1b8e96a418458430c8de5b09064, type: 3}
+  character: {fileID: 1820075857}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5649,12 +5609,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 40
-  indentLevel: 1
-  storyText: Who Is It?
+  itemId: 138
+  indentLevel: 0
+  storyText: He always wanted to make a change. Such a light hearted soul. He always
+    thought he could make a difference
   description: 
   character: {fileID: 1820075857}
-  portrait: {fileID: 21300000, guid: 784332953e98f1447b28787faa297c4c, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5707,24 +5668,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 863814076}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 36
+  itemId: 137
   indentLevel: 0
-  storyText: Oh God, I have to Decide
-  description: 
-  character: {fileID: 1820075857}
-  portrait: {fileID: 21300000, guid: 784332953e98f1447b28787faa297c4c, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  targetObject: {fileID: 434503015}
+  methodName: SetInMenu
+  delay: 0
 --- !u!114 &863814117
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5734,14 +5685,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 863814076}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 62
-  indentLevel: 0
-  targetObject: {fileID: 434503015}
-  methodName: SetInMenu
-  delay: 0
+  itemId: 136
+  indentLevel: 1
+  storyText: Thank you for your service
+  description: 
+  character: {fileID: 1820075857}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &863814118
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5751,14 +5712,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 863814076}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 61
-  indentLevel: 0
-  targetObject: {fileID: 434503015}
-  methodName: SetInMenu
-  delay: 0
+  itemId: 135
+  indentLevel: 1
+  storyText: Better check in case there is anything left around I should dispose
+    of.
+  description: 
+  character: {fileID: 1820075857}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &863814119
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5768,22 +5740,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 863814076}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 66
+  itemId: 134
   indentLevel: 0
-  text: Side with the Government
+  storyText: '{i} Oh, The Landlord {i}'
   description: 
-  targetBlock: {fileID: 863814122}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
+  character: {fileID: 1820075857}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &863814120
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5796,11 +5770,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 59
+  itemId: 133
   indentLevel: 0
-  storyText: '{i}*Ring Ring*{i}'
+  storyText: '{i} Muffled{/i} Mr Jones? It''s Me.'
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1100665629}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -5825,10 +5799,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 60
   indentLevel: 0
-  storyText: That's Weird, I'm Not Expecting Anyone
+  storyText: Alongside that Brotherhood inspections are required to be done more
+    frequently for safety during this investigation on the troublemakers who call
+    themselves Dawnbreakers.
   description: 
-  character: {fileID: 1820075857}
-  portrait: {fileID: 21300000, guid: 784332953e98f1447b28787faa297c4c, type: 3}
+  character: {fileID: 1369774031}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5853,8 +5829,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 1139.8365
-    y: 611.1289
-    width: 79
+    y: 610.1289
+    width: 81.333336
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5864,7 +5840,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 863814161}
-  - {fileID: 863814160}
+  - {fileID: 863814082}
   - {fileID: 863814164}
   - {fileID: 863814163}
   suppressAllAutoSelections: 0
@@ -5877,22 +5853,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 863814076}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 63
+  itemId: 132
   indentLevel: 0
-  text: Side with the Revolutionaries
+  storyText: '{i} Knock Knock{i}'
   description: 
-  targetBlock: {fileID: 863814124}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: f09eec5f5b90a9a4194276a2eac66b21, type: 3}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &863814124
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5909,7 +5887,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 771.65
     y: 597.53564
-    width: 70
+    width: 72.66667
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5935,8 +5913,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 70
-  indentLevel: 1
+  itemId: 131
+  indentLevel: 0
   targetObject: {fileID: 434503015}
   methodName: SetInMenu
   delay: 0
@@ -5949,37 +5927,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 863814076}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 690.0963
-    y: 311.34317
-    width: 91
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 67
-  blockName: Answer Phone
-  description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 863814131}
-  - {fileID: 863814128}
-  - {fileID: 863814144}
-  - {fileID: 863814143}
-  - {fileID: 863814142}
-  - {fileID: 863814141}
-  - {fileID: 863814138}
-  - {fileID: 863814140}
-  - {fileID: 863814139}
-  - {fileID: 863814137}
-  - {fileID: 863814136}
-  - {fileID: 863814135}
-  - {fileID: 863814125}
-  - {fileID: 863814130}
-  suppressAllAutoSelections: 0
+  itemId: 130
+  indentLevel: 0
+  targetFlowchart: {fileID: 863814077}
+  targetBlock: {fileID: 863814132}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
 --- !u!114 &863814127
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6004,14 +5963,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 863814076}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 68
-  indentLevel: 1
-  targetObject: {fileID: 434503015}
-  methodName: SetInMenu
-  delay: 0
+  itemId: 129
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 5
+  durationOLD: 0
 --- !u!114 &863814129
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6036,149 +5996,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 863814076}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 90
-  indentLevel: 1
-  anyVar:
-    variable: {fileID: 863814127}
-    data:
-      animatorData:
-        animatorRef: {fileID: 0}
-        animatorVal: {fileID: 0}
-      audioSourceData:
-        audioSourceRef: {fileID: 0}
-        audioSourceVal: {fileID: 0}
-      booleanData:
-        booleanRef: {fileID: 0}
-        booleanVal: 1
-      collectionData:
-        collectionRef: {fileID: 0}
-        collectionVal: {fileID: 0}
-      collider2DData:
-        collider2DRef: {fileID: 0}
-        collider2DVal: {fileID: 0}
-      colliderData:
-        colliderRef: {fileID: 0}
-        colliderVal: {fileID: 0}
-      colorData:
-        colorRef: {fileID: 0}
-        colorVal: {r: 0, g: 0, b: 0, a: 0}
-      floatData:
-        floatRef: {fileID: 0}
-        floatVal: 0
-      gameObjectData:
-        gameObjectRef: {fileID: 0}
-        gameObjectVal: {fileID: 0}
-      integerData:
-        integerRef: {fileID: 0}
-        integerVal: 0
-      materialData:
-        materialRef: {fileID: 0}
-        materialVal: {fileID: 0}
-      matrix4x4Data:
-        matrix4x4Ref: {fileID: 0}
-        matrix4x4Val:
-          e00: 0
-          e01: 0
-          e02: 0
-          e03: 0
-          e10: 0
-          e11: 0
-          e12: 0
-          e13: 0
-          e20: 0
-          e21: 0
-          e22: 0
-          e23: 0
-          e30: 0
-          e31: 0
-          e32: 0
-          e33: 0
-      objectData:
-        objectRef: {fileID: 0}
-        objectVal: {fileID: 0}
-      quaternionData:
-        quaternionRef: {fileID: 0}
-        quaternionVal: {x: 0, y: 0, z: 0, w: 0}
-      rigidbody2DData:
-        rigidbody2DRef: {fileID: 0}
-        rigidbody2DVal: {fileID: 0}
-      rigidbodyData:
-        rigidbodyRef: {fileID: 0}
-        rigidbodyVal: {fileID: 0}
-      spriteData:
-        spriteRef: {fileID: 0}
-        spriteVal: {fileID: 0}
-      stringData:
-        stringRef: {fileID: 0}
-        stringVal: 
-      textureData:
-        textureRef: {fileID: 0}
-        textureVal: {fileID: 0}
-      transformData:
-        transformRef: {fileID: 0}
-        transformVal: {fileID: 0}
-      vector2Data:
-        vector2Ref: {fileID: 0}
-        vector2Val: {x: 0, y: 0}
-      vector3Data:
-        vector3Ref: {fileID: 0}
-        vector3Val: {x: 0, y: 0, z: 0}
-      vector4Data:
-        vector4Ref: {fileID: 0}
-        vector4Val: {x: 0, y: 0, z: 0, w: 0}
-  setOperator: 0
-  variable: {fileID: 0}
-  booleanData:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  integerData:
-    integerRef: {fileID: 0}
-    integerVal: 0
-  floatData:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  stringData:
-    stringRef: {fileID: 0}
-    stringVal: 
-  animatorData:
-    animatorRef: {fileID: 0}
-    animatorVal: {fileID: 0}
-  audioSourceData:
-    audioSourceRef: {fileID: 0}
-    audioSourceVal: {fileID: 0}
-  colorData:
-    colorRef: {fileID: 0}
-    colorVal: {r: 0, g: 0, b: 0, a: 0}
-  gameObjectData:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 0}
-  materialData:
-    materialRef: {fileID: 0}
-    materialVal: {fileID: 0}
-  objectData:
-    objectRef: {fileID: 0}
-    objectVal: {fileID: 0}
-  rigidbody2DData:
-    rigidbody2DRef: {fileID: 0}
-    rigidbody2DVal: {fileID: 0}
-  spriteData:
-    spriteRef: {fileID: 0}
-    spriteVal: {fileID: 0}
-  textureData:
-    textureRef: {fileID: 0}
-    textureVal: {fileID: 0}
-  transformData:
-    transformRef: {fileID: 0}
-    transformVal: {fileID: 0}
-  vector2Data:
-    vector2Ref: {fileID: 0}
-    vector2Val: {x: 0, y: 0}
-  vector3Data:
-    vector3Ref: {fileID: 0}
-    vector3Val: {x: 0, y: 0, z: 0}
+  itemId: 128
+  indentLevel: 0
+  storyText: I guess they're really picking up momentum. Oh well, I'd better get
+    on with my day.
+  description: 
+  character: {fileID: 1820075857}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &863814131
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6188,330 +6024,47 @@ MonoBehaviour:
   m_GameObject: {fileID: 863814076}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70c5622b8a80845c980954170295f292, type: 3}
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 89
+  itemId: 127
   indentLevel: 0
-  anyOrAllConditions: 1
-  conditions:
-  - compareOperator: 0
-    anyVar:
-      variable: {fileID: 863814129}
-      data:
-        animatorData:
-          animatorRef: {fileID: 0}
-          animatorVal: {fileID: 0}
-        audioSourceData:
-          audioSourceRef: {fileID: 0}
-          audioSourceVal: {fileID: 0}
-        booleanData:
-          booleanRef: {fileID: 0}
-          booleanVal: 1
-        collectionData:
-          collectionRef: {fileID: 0}
-          collectionVal: {fileID: 0}
-        collider2DData:
-          collider2DRef: {fileID: 0}
-          collider2DVal: {fileID: 0}
-        colliderData:
-          colliderRef: {fileID: 0}
-          colliderVal: {fileID: 0}
-        colorData:
-          colorRef: {fileID: 0}
-          colorVal: {r: 0, g: 0, b: 0, a: 0}
-        floatData:
-          floatRef: {fileID: 0}
-          floatVal: 0
-        gameObjectData:
-          gameObjectRef: {fileID: 0}
-          gameObjectVal: {fileID: 0}
-        integerData:
-          integerRef: {fileID: 0}
-          integerVal: 0
-        materialData:
-          materialRef: {fileID: 0}
-          materialVal: {fileID: 0}
-        matrix4x4Data:
-          matrix4x4Ref: {fileID: 0}
-          matrix4x4Val:
-            e00: 0
-            e01: 0
-            e02: 0
-            e03: 0
-            e10: 0
-            e11: 0
-            e12: 0
-            e13: 0
-            e20: 0
-            e21: 0
-            e22: 0
-            e23: 0
-            e30: 0
-            e31: 0
-            e32: 0
-            e33: 0
-        objectData:
-          objectRef: {fileID: 0}
-          objectVal: {fileID: 0}
-        quaternionData:
-          quaternionRef: {fileID: 0}
-          quaternionVal: {x: 0, y: 0, z: 0, w: 0}
-        rigidbody2DData:
-          rigidbody2DRef: {fileID: 0}
-          rigidbody2DVal: {fileID: 0}
-        rigidbodyData:
-          rigidbodyRef: {fileID: 0}
-          rigidbodyVal: {fileID: 0}
-        spriteData:
-          spriteRef: {fileID: 0}
-          spriteVal: {fileID: 0}
-        stringData:
-          stringRef: {fileID: 0}
-          stringVal: 
-        textureData:
-          textureRef: {fileID: 0}
-          textureVal: {fileID: 0}
-        transformData:
-          transformRef: {fileID: 0}
-          transformVal: {fileID: 0}
-        vector2Data:
-          vector2Ref: {fileID: 0}
-          vector2Val: {x: 0, y: 0}
-        vector3Data:
-          vector3Ref: {fileID: 0}
-          vector3Val: {x: 0, y: 0, z: 0}
-        vector4Data:
-          vector4Ref: {fileID: 0}
-          vector4Val: {x: 0, y: 0, z: 0, w: 0}
-  - compareOperator: 1
-    anyVar:
-      variable: {fileID: 863814127}
-      data:
-        animatorData:
-          animatorRef: {fileID: 0}
-          animatorVal: {fileID: 0}
-        audioSourceData:
-          audioSourceRef: {fileID: 0}
-          audioSourceVal: {fileID: 0}
-        booleanData:
-          booleanRef: {fileID: 0}
-          booleanVal: 1
-        collectionData:
-          collectionRef: {fileID: 0}
-          collectionVal: {fileID: 0}
-        collider2DData:
-          collider2DRef: {fileID: 0}
-          collider2DVal: {fileID: 0}
-        colliderData:
-          colliderRef: {fileID: 0}
-          colliderVal: {fileID: 0}
-        colorData:
-          colorRef: {fileID: 0}
-          colorVal: {r: 0, g: 0, b: 0, a: 0}
-        floatData:
-          floatRef: {fileID: 0}
-          floatVal: 0
-        gameObjectData:
-          gameObjectRef: {fileID: 0}
-          gameObjectVal: {fileID: 0}
-        integerData:
-          integerRef: {fileID: 0}
-          integerVal: 0
-        materialData:
-          materialRef: {fileID: 0}
-          materialVal: {fileID: 0}
-        matrix4x4Data:
-          matrix4x4Ref: {fileID: 0}
-          matrix4x4Val:
-            e00: 0
-            e01: 0
-            e02: 0
-            e03: 0
-            e10: 0
-            e11: 0
-            e12: 0
-            e13: 0
-            e20: 0
-            e21: 0
-            e22: 0
-            e23: 0
-            e30: 0
-            e31: 0
-            e32: 0
-            e33: 0
-        objectData:
-          objectRef: {fileID: 0}
-          objectVal: {fileID: 0}
-        quaternionData:
-          quaternionRef: {fileID: 0}
-          quaternionVal: {x: 0, y: 0, z: 0, w: 0}
-        rigidbody2DData:
-          rigidbody2DRef: {fileID: 0}
-          rigidbody2DVal: {fileID: 0}
-        rigidbodyData:
-          rigidbodyRef: {fileID: 0}
-          rigidbodyVal: {fileID: 0}
-        spriteData:
-          spriteRef: {fileID: 0}
-          spriteVal: {fileID: 0}
-        stringData:
-          stringRef: {fileID: 0}
-          stringVal: 
-        textureData:
-          textureRef: {fileID: 0}
-          textureVal: {fileID: 0}
-        transformData:
-          transformRef: {fileID: 0}
-          transformVal: {fileID: 0}
-        vector2Data:
-          vector2Ref: {fileID: 0}
-          vector2Val: {x: 0, y: 0}
-        vector3Data:
-          vector3Ref: {fileID: 0}
-          vector3Val: {x: 0, y: 0, z: 0}
-        vector4Data:
-          vector4Ref: {fileID: 0}
-          vector4Val: {x: 0, y: 0, z: 0, w: 0}
-  compareOperator: 0
-  anyVar:
-    variable: {fileID: 0}
-    data:
-      animatorData:
-        animatorRef: {fileID: 0}
-        animatorVal: {fileID: 0}
-      audioSourceData:
-        audioSourceRef: {fileID: 0}
-        audioSourceVal: {fileID: 0}
-      booleanData:
-        booleanRef: {fileID: 0}
-        booleanVal: 0
-      collectionData:
-        collectionRef: {fileID: 0}
-        collectionVal: {fileID: 0}
-      collider2DData:
-        collider2DRef: {fileID: 0}
-        collider2DVal: {fileID: 0}
-      colliderData:
-        colliderRef: {fileID: 0}
-        colliderVal: {fileID: 0}
-      colorData:
-        colorRef: {fileID: 0}
-        colorVal: {r: 0, g: 0, b: 0, a: 0}
-      floatData:
-        floatRef: {fileID: 0}
-        floatVal: 0
-      gameObjectData:
-        gameObjectRef: {fileID: 0}
-        gameObjectVal: {fileID: 0}
-      integerData:
-        integerRef: {fileID: 0}
-        integerVal: 0
-      materialData:
-        materialRef: {fileID: 0}
-        materialVal: {fileID: 0}
-      matrix4x4Data:
-        matrix4x4Ref: {fileID: 0}
-        matrix4x4Val:
-          e00: 0
-          e01: 0
-          e02: 0
-          e03: 0
-          e10: 0
-          e11: 0
-          e12: 0
-          e13: 0
-          e20: 0
-          e21: 0
-          e22: 0
-          e23: 0
-          e30: 0
-          e31: 0
-          e32: 0
-          e33: 0
-      objectData:
-        objectRef: {fileID: 0}
-        objectVal: {fileID: 0}
-      quaternionData:
-        quaternionRef: {fileID: 0}
-        quaternionVal: {x: 0, y: 0, z: 0, w: 0}
-      rigidbody2DData:
-        rigidbody2DRef: {fileID: 0}
-        rigidbody2DVal: {fileID: 0}
-      rigidbodyData:
-        rigidbodyRef: {fileID: 0}
-        rigidbodyVal: {fileID: 0}
-      spriteData:
-        spriteRef: {fileID: 0}
-        spriteVal: {fileID: 0}
-      stringData:
-        stringRef: {fileID: 0}
-        stringVal: 
-      textureData:
-        textureRef: {fileID: 0}
-        textureVal: {fileID: 0}
-      transformData:
-        transformRef: {fileID: 0}
-        transformVal: {fileID: 0}
-      vector2Data:
-        vector2Ref: {fileID: 0}
-        vector2Val: {x: 0, y: 0}
-      vector3Data:
-        vector3Ref: {fileID: 0}
-        vector3Val: {x: 0, y: 0, z: 0}
-      vector4Data:
-        vector4Ref: {fileID: 0}
-        vector4Val: {x: 0, y: 0, z: 0, w: 0}
-  variable: {fileID: 0}
-  booleanData:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  integerData:
-    integerRef: {fileID: 0}
-    integerVal: 0
-  floatData:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  stringData:
-    stringRef: {fileID: 0}
-    stringVal: 
-  animatorData:
-    animatorRef: {fileID: 0}
-    animatorVal: {fileID: 0}
-  audioSourceData:
-    audioSourceRef: {fileID: 0}
-    audioSourceVal: {fileID: 0}
-  colorData:
-    colorRef: {fileID: 0}
-    colorVal: {r: 0, g: 0, b: 0, a: 0}
-  gameObjectData:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 0}
-  materialData:
-    materialRef: {fileID: 0}
-    materialVal: {fileID: 0}
-  objectData:
-    objectRef: {fileID: 0}
-    objectVal: {fileID: 0}
-  rigidbody2DData:
-    rigidbody2DRef: {fileID: 0}
-    rigidbody2DVal: {fileID: 0}
-  spriteData:
-    spriteRef: {fileID: 0}
-    spriteVal: {fileID: 0}
-  textureData:
-    textureRef: {fileID: 0}
-    textureVal: {fileID: 0}
-  transformData:
-    transformRef: {fileID: 0}
-    transformVal: {fileID: 0}
-  vector2Data:
-    vector2Ref: {fileID: 0}
-    vector2Val: {x: 0, y: 0}
-  vector3Data:
-    vector3Ref: {fileID: 0}
-    vector3Val: {x: 0, y: 0, z: 0}
+  targetObject: {fileID: 513378062}
+  methodName: ToggleHighlight
+  delay: 0
 --- !u!114 &863814132
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 863814076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 832.8832
+    y: 7.178055
+    width: 75.333336
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 126
+  blockName: DoorKnock
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 863814125}
+  - {fileID: 863814123}
+  - {fileID: 863814120}
+  - {fileID: 863814119}
+  - {fileID: 863814116}
+  - {fileID: 863814131}
+  suppressAllAutoSelections: 0
+--- !u!114 &863814133
 MonoBehaviour:
   m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6523,12 +6076,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 71
+  itemId: 125
   indentLevel: 0
-  storyText: Damn it, I don't have time for this
+  storyText: Sorry for the inconvenient interruption to our regular broadcast we
+    will be back shortly
   description: 
-  character: {fileID: 1820075857}
-  portrait: {fileID: 21300000, guid: 784332953e98f1447b28787faa297c4c, type: 3}
+  character: {fileID: 1369774031}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6538,158 +6092,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &863814133
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 863814076}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 91
-  indentLevel: 0
-  anyVar:
-    variable: {fileID: 863814129}
-    data:
-      animatorData:
-        animatorRef: {fileID: 0}
-        animatorVal: {fileID: 0}
-      audioSourceData:
-        audioSourceRef: {fileID: 0}
-        audioSourceVal: {fileID: 0}
-      booleanData:
-        booleanRef: {fileID: 0}
-        booleanVal: 1
-      collectionData:
-        collectionRef: {fileID: 0}
-        collectionVal: {fileID: 0}
-      collider2DData:
-        collider2DRef: {fileID: 0}
-        collider2DVal: {fileID: 0}
-      colliderData:
-        colliderRef: {fileID: 0}
-        colliderVal: {fileID: 0}
-      colorData:
-        colorRef: {fileID: 0}
-        colorVal: {r: 0, g: 0, b: 0, a: 0}
-      floatData:
-        floatRef: {fileID: 0}
-        floatVal: 0
-      gameObjectData:
-        gameObjectRef: {fileID: 0}
-        gameObjectVal: {fileID: 0}
-      integerData:
-        integerRef: {fileID: 0}
-        integerVal: 0
-      materialData:
-        materialRef: {fileID: 0}
-        materialVal: {fileID: 0}
-      matrix4x4Data:
-        matrix4x4Ref: {fileID: 0}
-        matrix4x4Val:
-          e00: 0
-          e01: 0
-          e02: 0
-          e03: 0
-          e10: 0
-          e11: 0
-          e12: 0
-          e13: 0
-          e20: 0
-          e21: 0
-          e22: 0
-          e23: 0
-          e30: 0
-          e31: 0
-          e32: 0
-          e33: 0
-      objectData:
-        objectRef: {fileID: 0}
-        objectVal: {fileID: 0}
-      quaternionData:
-        quaternionRef: {fileID: 0}
-        quaternionVal: {x: 0, y: 0, z: 0, w: 0}
-      rigidbody2DData:
-        rigidbody2DRef: {fileID: 0}
-        rigidbody2DVal: {fileID: 0}
-      rigidbodyData:
-        rigidbodyRef: {fileID: 0}
-        rigidbodyVal: {fileID: 0}
-      spriteData:
-        spriteRef: {fileID: 0}
-        spriteVal: {fileID: 0}
-      stringData:
-        stringRef: {fileID: 0}
-        stringVal: 
-      textureData:
-        textureRef: {fileID: 0}
-        textureVal: {fileID: 0}
-      transformData:
-        transformRef: {fileID: 0}
-        transformVal: {fileID: 0}
-      vector2Data:
-        vector2Ref: {fileID: 0}
-        vector2Val: {x: 0, y: 0}
-      vector3Data:
-        vector3Ref: {fileID: 0}
-        vector3Val: {x: 0, y: 0, z: 0}
-      vector4Data:
-        vector4Ref: {fileID: 0}
-        vector4Val: {x: 0, y: 0, z: 0, w: 0}
-  setOperator: 0
-  variable: {fileID: 0}
-  booleanData:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  integerData:
-    integerRef: {fileID: 0}
-    integerVal: 0
-  floatData:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  stringData:
-    stringRef: {fileID: 0}
-    stringVal: 
-  animatorData:
-    animatorRef: {fileID: 0}
-    animatorVal: {fileID: 0}
-  audioSourceData:
-    audioSourceRef: {fileID: 0}
-    audioSourceVal: {fileID: 0}
-  colorData:
-    colorRef: {fileID: 0}
-    colorVal: {r: 0, g: 0, b: 0, a: 0}
-  gameObjectData:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 0}
-  materialData:
-    materialRef: {fileID: 0}
-    materialVal: {fileID: 0}
-  objectData:
-    objectRef: {fileID: 0}
-    objectVal: {fileID: 0}
-  rigidbody2DData:
-    rigidbody2DRef: {fileID: 0}
-    rigidbody2DVal: {fileID: 0}
-  spriteData:
-    spriteRef: {fileID: 0}
-    spriteVal: {fileID: 0}
-  textureData:
-    textureRef: {fileID: 0}
-    textureVal: {fileID: 0}
-  transformData:
-    transformRef: {fileID: 0}
-    transformVal: {fileID: 0}
-  vector2Data:
-    vector2Ref: {fileID: 0}
-    vector2Val: {x: 0, y: 0}
-  vector3Data:
-    vector3Ref: {fileID: 0}
-    vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &863814134
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6945,12 +6347,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 80
-  indentLevel: 1
-  storyText: Am I Satisfied with my life? I guess I never thought of that. Hmmmmmm
+  itemId: 124
+  indentLevel: 0
+  storyText: '{i} KZTTT {i}'
   description: 
-  character: {fileID: 1820075857}
-  portrait: {fileID: 21300000, guid: 784332953e98f1447b28787faa297c4c, type: 3}
+  character: {fileID: 0}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6972,11 +6374,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 79
-  indentLevel: 1
-  storyText: '{i}*Click*{i}'
+  itemId: 123
+  indentLevel: 0
+  storyText: "Now it\u2019s time we stand up and light the fire of humanity again.
+    Fireflies take off and start relighting our hearts and fires and break free.
+    Break free to the new daw-\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1176916905}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -6999,9 +6403,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 78
-  indentLevel: 1
-  storyText: Choose Wisely, Mr Jones. Your "comfortable life", or a free life
+  itemId: 122
+  indentLevel: 0
+  storyText: But they have locked our choices away, taken away our freedom for peace.
   description: 
   character: {fileID: 1176916905}
   portrait: {fileID: 0}
@@ -7026,12 +6430,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 77
-  indentLevel: 1
-  storyText: I work with the revolutionaries, but that's all you need to know right
-    now
+  itemId: 121
+  indentLevel: 0
+  storyText: "They won\u2019t stop us, for we fireflies are here to relight the fire
+    within humanity. The brotherhood claims to be  maintaining safety"
   description: 
-  character: {fileID: 1492695110}
+  character: {fileID: 1176916905}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -7054,12 +6458,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 76
-  indentLevel: 1
-  storyText: Mr Jones, do you like your life? Seeing your fellow country men tourtued
-    and killed for stepping slightly out of line?
+  itemId: 120
+  indentLevel: 0
+  storyText: '{i} KZTTT {i}'
   description: 
-  character: {fileID: 1176916905}
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -7082,11 +6485,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 75
-  indentLevel: 1
-  storyText: Other Than that, Just someone who wants you to make a choice.
+  itemId: 159
+  indentLevel: 0
+  storyText: Letter for Mr. Alen Jones?
   description: 
-  character: {fileID: 1176916905}
+  character: {fileID: 1492695110}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -7109,12 +6512,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 74
-  indentLevel: 1
-  storyText: Who is this?
+  itemId: 158
+  indentLevel: 0
+  storyText: Who is it?
   description: 
   character: {fileID: 1820075857}
-  portrait: {fileID: 21300000, guid: 784332953e98f1447b28787faa297c4c, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7136,13 +6539,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 73
-  indentLevel: 1
-  storyText: Hello, Mr Jones
+  itemId: 157
+  indentLevel: 0
+  storyText: '{i} Knock Knock {i}'
   description: 
-  character: {fileID: 1492695110}
+  character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: f09eec5f5b90a9a4194276a2eac66b21, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -7160,24 +6563,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 863814076}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 72
-  indentLevel: 1
-  storyText: '{i}sigh{/i}, Hello?'
-  description: 
-  character: {fileID: 1820075857}
-  portrait: {fileID: 21300000, guid: 784332953e98f1447b28787faa297c4c, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  itemId: 156
+  indentLevel: 0
+  targetObject: {fileID: 434503015}
+  methodName: SetInMenu
+  delay: 0
 --- !u!114 &863814144
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7187,14 +6580,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 863814076}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 86
-  indentLevel: 1
-  targetObject: {fileID: 541050652}
-  methodName: ToggleHighlight
-  delay: 0
+  itemId: 155
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 3
+  durationOLD: 0
 --- !u!114 &863814145
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7221,31 +6615,30 @@ MonoBehaviour:
   m_GameObject: {fileID: 863814076}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 94
-  indentLevel: 0
-  targetObject: {fileID: 541050652}
-  methodName: ToggleHighlight
-  delay: 0
---- !u!114 &863814147
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 863814076}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 93
-  indentLevel: 0
-  targetObject: {fileID: 513378062}
-  methodName: ToggleHighlight
-  delay: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 946.8832
+    y: 330.17804
+    width: 93.333336
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 154
+  blockName: Final Decision
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 863814144}
+  - {fileID: 863814143}
+  - {fileID: 863814142}
+  - {fileID: 863814141}
+  - {fileID: 863814140}
+  - {fileID: 863814103}
+  - {fileID: 863814101}
+  suppressAllAutoSelections: 0
 --- !u!114 &863814148
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7262,7 +6655,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1466.8832
     y: 186.17805
-    width: 77
+    width: 79.333336
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7272,9 +6665,9 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 863814153}
-  - {fileID: 863814152}
-  - {fileID: 863814151}
   - {fileID: 863814150}
+  - {fileID: 863814105}
+  - {fileID: 863814104}
   - {fileID: 863814149}
   - {fileID: 863814155}
   suppressAllAutoSelections: 0
@@ -7309,65 +6702,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 99
   indentLevel: 0
-  storyText: 'Disapeared '
+  storyText: "Ever since the brotherhood arrived, they have done a lot to advance
+    humanity. People are living longer, health and food haven\u2019t been a problem
+    for a decade."
   description: 
   character: {fileID: 1820075857}
-  portrait: {fileID: 21300000, guid: 784332953e98f1447b28787faa297c4c, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &863814151
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 863814076}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 98
-  indentLevel: 0
-  storyText: But, when I think about it, anyone who was vocal about the Brotherhood
-    just kind of...
-  description: 
-  character: {fileID: 1820075857}
-  portrait: {fileID: 21300000, guid: 784332953e98f1447b28787faa297c4c, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &863814152
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 863814076}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 97
-  indentLevel: 0
-  storyText: The Brotherhood has done seemingly great things for the country
-  description: 
-  character: {fileID: 1820075857}
-  portrait: {fileID: 21300000, guid: 784332953e98f1447b28787faa297c4c, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7447,7 +6787,7 @@ MonoBehaviour:
   delay: 0
 --- !u!114 &863814157
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -7476,7 +6816,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 111
   indentLevel: 0
-  storyText: I can't live like this.
+  storyText: I don't know where to go, but I need to go now.
   description: 
   character: {fileID: 1820075857}
   portrait: {fileID: 0}
@@ -7503,34 +6843,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 110
   indentLevel: 0
-  storyText: 'She was right. '
-  description: 
-  character: {fileID: 1820075857}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &863814160
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 863814076}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 109
-  indentLevel: 0
-  storyText: Obviously The Brotherhood is RIght
+  storyText: This is my chance. I can finially help other people
   description: 
   character: {fileID: 1820075857}
   portrait: {fileID: 0}
@@ -7557,7 +6870,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 108
   indentLevel: 0
-  storyText: 'No, What am I thinking? '
+  storyText: No, Why am I even considering that?
   description: 
   character: {fileID: 1820075857}
   portrait: {fileID: 0}
@@ -7570,23 +6883,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &863814162
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 863814076}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 107
-  indentLevel: 0
-  targetObject: {fileID: 434503015}
-  methodName: SetInMenu
-  delay: 0
 --- !u!114 &863814163
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7606,7 +6902,7 @@ MonoBehaviour:
   delay: 0
 --- !u!114 &863814164
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -7623,7 +6919,7 @@ MonoBehaviour:
   delay: 0
 --- !u!114 &863814165
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -9220,7 +8516,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh45030
+  m_Name: pb_Mesh24798
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -10180,6 +9476,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 127422178}
     m_Modifications:
+    - target: {fileID: 1270021923660130, guid: 1bbe2c604601fdb44b9e7eeec90773ef, type: 3}
+      propertyPath: m_TagString
+      value: StoryItem
+      objectReference: {fileID: 0}
     - target: {fileID: 1290666548114358, guid: 1bbe2c604601fdb44b9e7eeec90773ef, type: 3}
       propertyPath: m_Name
       value: jj_door_3_white
@@ -10365,6 +9665,56 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1314100113
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1314100114}
+  - component: {fileID: 1314100115}
+  m_Layer: 0
+  m_Name: LetterAvatar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1314100114
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314100113}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 220784126}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1314100115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314100113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: Letter
+  nameColor: {r: 1, g: 1, b: 1, a: 1}
+  soundEffect: {fileID: 0}
+  portraits: []
+  portraitsFace: 0
+  setSayDialog: {fileID: 0}
+  description: 
 --- !u!1 &1337974603 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100002, guid: e83052825161ca9489eb21555ff606d9, type: 3}
@@ -10446,6 +9796,56 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1369774029
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1369774030}
+  - component: {fileID: 1369774031}
+  m_Layer: 0
+  m_Name: TvAvatar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1369774030
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1369774029}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 220784126}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1369774031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1369774029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: TV Announcer
+  nameColor: {r: 1, g: 1, b: 1, a: 1}
+  soundEffect: {fileID: 0}
+  portraits: []
+  portraitsFace: 0
+  setSayDialog: {fileID: 0}
+  description: 
 --- !u!1 &1380460038
 GameObject:
   m_ObjectHideFlags: 0

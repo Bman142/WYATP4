@@ -26,8 +26,8 @@ namespace WYATP.PlayerControl
                 mouseDirection += mouseChange;
                 //Debug.Log(mouseDirection);
                 // Lock vertical field of view to approx. -45 to 90
-                if (mouseDirection.y > 1) { mouseDirection.y = 1f; }
-                else if (mouseDirection.y < -1) { mouseDirection.y = -1f; }
+                if (mouseDirection.y > 2) { mouseDirection.y = 2f; }
+                else if (mouseDirection.y < -2) { mouseDirection.y = -2f; }
                 this.transform.localRotation = Quaternion.AngleAxis(mouseDirection.y * cameraSensitivity, Vector3.right);
             }
         }
