@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 1481.6191, g: 1835.6934, b: 2430.2617, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -420,7 +420,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Following the Government sweep, Fred and Adele Jones were shocked to find
+  m_text: Following the Government sweep, Alen and Adele Jones were shocked to find
     that many of their neighbours were being targeted by the ministry of order and
     were arrested and persecuted based on little evidence
   m_isRightToLeft: 0
@@ -1516,7 +1516,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Before the officers of the Ministry could search their appartment, Fred
+  m_text: Before the officers of the Ministry could search their appartment, Alen
     Jones escaped down the fire escape. Once he met with the mysterious woman from
     the phone, Fred was told that his wife had been arrested and would likely be
     tortured into giving up his location.
