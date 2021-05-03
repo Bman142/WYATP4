@@ -51,6 +51,7 @@ namespace WYATP.PlayerControl
 
         void Update()
         {
+            localSpeed = Player.Instance.MoveSpeed;
             if (!Player.Instance.CursorLock)
             {
                 if (Input.GetMouseButtonDown(0))
@@ -85,7 +86,7 @@ namespace WYATP.PlayerControl
                 cameraSensitivity = Player.Instance.CameraSensitivty;
                 Vector2 mouseChange = new Vector2(Input.GetAxisRaw("Mouse X"), -Input.GetAxisRaw("Mouse Y"));
                 mouseDirection += mouseChange;
-                this.transform.localRotation = Quaternion.AngleAxis(mouseDirection.x * cameraSensitivity, Vector3.up);
+                this.transform.localRotation = Quaternion.AngleAxis(mouseDirection.x, Vector3.up);
 
 
                 if (Input.GetKey(forward)) { agent.Move(this.transform.forward * localSpeed); }
